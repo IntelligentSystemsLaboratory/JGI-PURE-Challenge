@@ -7,6 +7,14 @@ using MicrosoftResearch.Infer.Models;
 
 namespace AVPTM
 {
+    public interface ILDA
+    {
+        double Infer(Dictionary<int, int>[] wordsInDoc, double alpha, double beta,
+            out Dirichlet[] postTheta, out Dirichlet[] postPhi);
+
+        InferenceEngine Engine { get; }
+    }
+
     /// <summary>
     /// Latent Dirichlet Allocation (LDA) model implemented in Infer.NET.
     /// It keeps all messages in memory, and so scales poorly with respect to
@@ -18,7 +26,7 @@ namespace AVPTM
     /// is that it supports an evidence calculation.
     /// of documents.
     /// </summary>
-    public class LDA
+    public class LDA : ILDA
     {
         /// <summary>
         /// Size of vocabulary

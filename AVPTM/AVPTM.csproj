@@ -56,6 +56,7 @@
     <Compile Include="ATM.cs" />
     <Compile Include="LDA.cs" />
     <Compile Include="LDAPredictionModel.cs" />
+    <Compile Include="LDAShared.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

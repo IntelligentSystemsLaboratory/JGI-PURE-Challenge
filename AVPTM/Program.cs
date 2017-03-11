@@ -19,7 +19,9 @@ namespace AVPTM
             var counts = MatlabReader.Read<double>(filename, "counts");
             var wc = MatlabReader.Read<double>(filename, "wc");
 
-            var lda = new LDA(wc.RowCount, 20);
+            // var lda = new LDA(wc.RowCount, 20);
+            const int batches = 100;
+            var lda = new LDAShared(batches, wc.RowCount, 20);
 
             var wordsInDoc = counts.EnumerateColumns()
                 .Select(row => row.EnumerateIndexed().ToDictionary(ia => ia.Item1, ia => (int) ia.Item2))
