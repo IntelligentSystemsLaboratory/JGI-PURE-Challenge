@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using System.Linq;
 using MathNet.Numerics.Data.Matlab;
 using MicrosoftResearch.Infer.Distributions;
@@ -31,6 +32,13 @@ namespace AVPTM
             Dirichlet[] postPhi;
             lda.Infer(wordsInDoc, 1.0, 1.0, out postTheta, out postPhi);
 
+            var ldaPredict = new LDAPredictionModel(wc.RowCount, 20);
+            var predictions = ldaPredict.Predict(postTheta, postPhi);
+
+            foreach (var prediction in predictions)
+            {
+                Console.WriteLine(prediction);
+            }
         }
     }
 }
