@@ -168,13 +168,12 @@ namespace AVPTM
         public static IDistribution<Vector[]> GetInitialisation(
             int numDocs, int numTopics, Sparsity sparsity)
         {
-            Dirichlet[] initTheta = new Dirichlet[numDocs];
-            double baseVal = 1.0 / numTopics;
+            var initTheta = new Dirichlet[numDocs];
 
             for (int i = 0; i < numDocs; i++)
             {
                 // Choose a random topic
-                Vector v = Vector.Zero(numTopics, sparsity);
+                var v = Vector.Zero(numTopics, sparsity);
                 int topic = Rand.Int(numTopics);
                 v[topic] = 1.0;
                 initTheta[i] = Dirichlet.PointMass(v);

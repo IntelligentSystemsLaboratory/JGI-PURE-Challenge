@@ -82,7 +82,7 @@ namespace AVPTM
             {
                 Word.SetTo(Variable.Discrete(Phi[topic]));
             }
-            
+
             Engine = new InferenceEngine(new VariationalMessagePassing());
             Engine.Compiler.ShowWarnings = false;
         }
