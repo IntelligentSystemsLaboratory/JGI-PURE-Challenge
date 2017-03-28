@@ -1,0 +1,449 @@
+ORGANISATION_CODE,ORGANISATION_TYPE,FULL_NAME,SHORT_NAME,URL
+DRAM,ACADEMIC DEPARTMENT,"Department of Drama: Theatre, Film, Television","Drama: Theatre, Film, Television",http://www.bristol.ac.uk/drama/
+FREN,ACADEMIC DEPARTMENT,Department of French,French,http://www.bristol.ac.uk/french/
+GERM,ACADEMIC DEPARTMENT,Department of German,German,http://www.bristol.ac.uk/german/
+THRS,ACADEMIC DEPARTMENT,Department of Religion and Theology,Religion and Theology,http://www.bristol.ac.uk/thrs/
+SHCT,ADMIN SUBUNIT,Senate House Catering,Senate House Catering,
+REFE,ADMIN SUBUNIT,Refectory Catering,Refectory Catering,
+ECSH,ACADEMIC UNIT,Economic & Social History,Economic & Social History,
+AUCC,ADMIN SUBUNIT,Avon Universities Computing Consortium,Avon Universities Computing Consortium,
+ILRT,ADMIN UNIT,Institute for Learning and Research Technology,Institute for Learning and Research Technology,http://www.ilrt.bris.ac.uk/
+HOSP,ACADEMIC DEPARTMENT,Hospital Medicine,Hospital Medicine,
+SINC,ACADEMIC SUBUNIT,Sinclair House,Sinclair House,http://www.bris.ac.uk/Depts/Manor/
+ACCT,ACADEMIC UNIT,Accountancy,Accountancy,
+DTON,ACADEMIC UNIT,Dartington Social Research Centre,Dartington Social Research Centre,
+CERC,ACADEMIC UNIT,Centre for Communications Research (URC),Centre for Communications Research (URC),http://www.bris.ac.uk/ccr/
+COCA,ADMIN UNIT,Conference & Catering Services,Conference & Catering Services,
+SRES,ACADEMIC UNIT,Residences Office,Residences Office,
+STUS,ADMIN UNIT,Student Services,Student Services,http://www.bristol.ac.uk/studentservices/
+MBAI,ACADEMIC UNIT,Graduate School of International Business,Graduate School of International Business,http://www.bris.ac.uk/Depts/MBA/
+PATH,ACADEMIC DEPARTMENT,Department of Pathology,Pathology,
+PREU,ACADEMIC UNIT,Prison Education Unit,Prison Education Unit,
+OPTH,ACADEMIC UNIT,Ophthalmology,Ophthalmology,http://www.bris.ac.uk/ophthalmology/
+SECO,ADMIN DEPARTMENT,University Secretary's Office,University Secretary's Office,http://www.bris.ac.uk/secretary
+HKLA,ADMIN SUBUNIT,Langford Housekeeping,Langford Housekeeping,
+MRCD,ACADEMIC UNIT,MRC Dental Unit,MRC Dental Unit,
+UBVO,ACADEMIC UNIT,University Veterinary Office,University Veterinary Office,
+SSRC,ACADEMIC UNIT,Safety Systems Research Centre (URC),Safety Systems Research Centre (URC),http://www.bristol.ac.uk/ssrc/
+VCAD,ACADEMIC UNIT,Companion Animal Studies,Companion Animal Studies,
+REMS,ACADEMIC DEPARTMENT,Remote Sensing (URC),Remote Sensing (URC),http://www.ggy.bris.ac.uk/crs.html
+GATE,ADMIN SUBUNIT,Gate House,Gate House,
+STDU,ADMIN UNIT,Disability Unit,Disability Unit,
+DPCM,ACADEMIC UNIT,Preclinical Dean of Medicine,Preclinical Dean of Medicine,
+DPCV,ACADEMIC UNIT,Veterinary Preclinical Dean,Veterinary Preclinical Dean,
+CECA,ADMIN UNIT,CECAS (Continuing Education Course Administration Service),CECAS (Continuing Education Course Administration Service),
+OPPO,ADMIN UNIT,Public Engagement,Public Engagement,http://www.bristol.ac.uk/public-engagement/
+RDEV,ADMIN DEPARTMENT,Office of Research and Enterprise Development,Office of Research and Enterprise Development,http://www.bris.ac.uk/Depts/Registrar/RES/
+IPMU,ADMIN UNIT,Intellectual Property Management Unit,Intellectual Property Management Unit,http://www.bris.ac.uk/Depts/IPMU/
+HGEO,ACADEMIC UNIT,Division of Human Geography,Human Geography,
+CMPO,ACADEMIC SUBUNIT,Centre for Market and Public Organisation,Centre for Market and Public Organisation,http://www.bristol.ac.uk/cmpo/
+OCNW,ADMIN SUBUNIT,Open Colleges Network West,Open Colleges Network West,
+CITI,ACADEMIC UNIT,Centre for the Study of Ethnicity and Citizenship (URC),Centre for the Study of Ethnicity and Citizenship (URC),
+ISER,ADMIN DEPARTMENT,Information Services,Information Services,http://www.bris.ac.uk/is/
+DCOM,ADMIN DEPARTMENT,Marketing and Communications Division,Marketing and Communications,http://www.bris.ac.uk/cms/
+UNPA,SERVICES UNIT,University Parents' Nursery Association (Liaison),University Nursery,http://www.bris.ac.uk/nursery/
+UBEC,ADMIN UNIT,Bristol Enterprise Centre,Bristol Enterprise Centre,http://www.bris.ac.uk/Depts/Registrar/RES/enterprise/
+MARH,ACADEMIC UNIT,Maritime Archaeology and History (URC),Maritime Archaeology and History (URC),http://www.bris.ac.uk/Depts/Archaeology/html/maritime/marcent.htm
+HART,ACADEMIC DEPARTMENT,Department of History of Art (Historical Studies),History of Art,http://www.bristol.ac.uk/arthistory/
+SPAI,ACADEMIC SCHOOL,"School of Sociology, Politics and International Studies","Sociology, Politics and International Studies",http://www.bristol.ac.uk/spais
+NCCC,SERVICES DEPARTMENT,National Composites Centre,National Composites Centre,http://nccuk.com/
+QUEN,ACADEMIC SCHOOL,Queen's School of Engineering,Queen's School of Engineering,
+MVEN,ACADEMIC SCHOOL,Merchant Venturers' School of Engineering,Merchant Venturers' School of Engineering,
+SSCM,ACADEMIC SCHOOL,School of Social and Community Medicine,Social and Community Medicine,http://www.bristol.ac.uk/social-community-medicine/
+SOCS,ACADEMIC SCHOOL,School of Clinical Sciences,Clinical Sciences,http://www.bristol.ac.uk/clinical-sciences/
+OSCR,ACADEMIC UNIT,Orth Sciences Comp Orth+Rheum,Orth Sciences Comp Orth+Rheum,
+GSEN,ACADEMIC SCHOOL,Graduate School of Engineering,Graduate School of Engineering,
+CHDH,ACADEMIC UNIT,Child Dental Health,Child Dental Health,
+SCIF,ACADEMIC OFFICE,Science Faculty Office,Science Faculty Office,http://www.bristol.ac.uk/science/
+PHYS,ACADEMIC SCHOOL,School of Physics,Physics,http://www.bristol.ac.uk/physics/
+CHUR,ACADEMIC UNIT,Churchill Hall,Churchill Hall,http://www.bristol.ac.uk/churchill-hall/
+FSTA,ADMIN DEPARTMENT,Faculty Student Administration,Faculty Student Administration,
+PGAD,ADMIN UNIT,Postgraduate Admissions,Postgraduate Admissions,http://www.bristol.ac.uk/sraa/admissions-office/pg-admissions/
+CPPD,ACADEMIC UNIT,Centre for Personal and Professional Development,Centre for Personal and Professional Development,
+LANG,ACADEMIC UNIT,Centre for English Language and Foundation Studies,Centre for English Language and Foundation Studies,http://www.bris.ac.uk/languagecentre/
+DRAA,ADMIN ORG BODY,"Student Recruitment, Access and Admissions","Student Recruitment, Access and Admissions",
+DSTS,ADMIN ORG BODY,Students Services,Students Services,
+DITS,ADMIN ORG BODY,IT Services,IT Services,
+DLIB,ADMIN ORG BODY,Library Services,Library Services,
+RESS,ADMIN DEPARTMENT,Residential and Hospitality Services,Residential and Hospitality Services,
+MAKP,ADMIN SUBUNIT,Tony Makepeace,Tony Makepeace,
+CARA,ADMIN UNIT,Careers Service,Careers Service,http://www.bris.ac.uk/careers/
+DLPG,ACADEMIC UNIT,Dental Postgraduate Unit,Dental Postgraduate Unit,http://www.bris.ac.uk/dentalpg/
+PGEO,ACADEMIC UNIT,Division of Physical Geography,Physical Geography,
+PASP,ADMIN UNIT,Information Services Central Administration,Information Services Central Administration,
+REGP,ADMIN DEPARTMENT,Senior Team Executive Office,Senior Team Executive Office,http://www.bristol.ac.uk/planning/
+VICH,ADMIN DEPARTMENT,Senior Team,Senior Team,http://www.bristol.ac.uk/university/governance/constitutionaldocs/universityofficers/senior-staff/
+GLAC,ACADEMIC UNIT,Bristol Glaciology Centre,Bristol Glaciology Centre,http://www.bgc.bris.ac.uk
+CARS,ACADEMIC UNIT,"Cardiac, Anaesthetic and Radiological Sciences","Cardiac, Anaesthetic and Radiological Sciences",
+CHHS,ACADEMIC UNIT,Clifton Hill House,Clifton Hill House,http://www.bristol.ac.uk/cliftonhillhouse/
+DOLP,ADMIN UNIT,Dolphin Implementation Team,Dolphin Implementation Team,http://www.bris.ac.uk/Depts/Registrar/Academic/SSD/safe/
+PHPH,ACADEMIC SCHOOL,"School of Physiology, Pharmacology & Neuroscience","Physiology, Pharmacology & Neuroscience",http://www.bristol.ac.uk/phys-pharm-neuro/
+HIAT,ACADEMIC UNIT,Hiatt Baker II,Hiatt Baker II,
+DSPP,ADMIN ORG BODY,Strategic Planning and Projects,Strategic Planning and Projects,http://www.bristol.ac.uk/planning/
+AQPO,ADMIN DEPARTMENT,Academic Quality and Partnerships Office,Academic Quality and Partnerships Office,http://www.bristol.ac.uk/academic-quality
+BRDC,ADMIN DEPARTMENT,Bristol Doctoral College,Bristol Doctoral College,http://www.bristol.ac.uk/doctoral-college
+ITEL,ADMIN DEPARTMENT,Technology Enhanced Learning and Education Development,Technology Enhanced Learning and Education Department,
+TIME,ADMIN DEPARTMENT,Timetabling and Room Booking,Timetabling and Room Booking,http://www.bristol.ac.uk/academicregistry/teams/timetabling-booking
+VCAT,ADMIN DEPARTMENT,International Student Visa Advice,International Student Visa Advice,
+HAFM,ADMIN DEPARTMENT,Facilities Management Hard Services,Facilities Management Hard Services,http://www.bristol.ac.uk/estates
+SOFM,ADMIN DEPARTMENT,Facilities Management Soft Services,Facilities Management Soft Services,http://www.bristol.ac.uk/estates
+CHSE,ACADEMIC UNIT,Centre for Health Sciences Education,Centre for Health Sciences Education,
+TLHP,ACADEMIC DEPARTMENT,Teaching and Learning for Health Professionals,Teaching and Learning for Health Professionals,http://www.bristol.ac.uk/tlhp/
+TSSP,ADMIN SUBUNIT,Temporary Staffing Service Pool,Temporary Staffing Service Pool,http://www.bristol.ac.uk/jobs/temporary-staffing/
+CRSM,ADMIN DEPARTMENT,Student Marketing,Student Marketing,http://www.bristol.ac.uk/sraa/crsm
+INOV,ACADEMIC DEPARTMENT,Centre for Innovation,Centre for Innovation,
+CHAN,SERVICES DEPARTMENT,Change Management,Change Management,
+THCL,ADMIN DEPARTMENT,Theatre Collection,Theatre Collection,http://www.bristol.ac.uk/theatre-collection/
+FATV,ACADEMIC DEPARTMENT,Department of Film and Television,Department of Film and Television,http://www.bristol.ac.uk/film
+THTR,ACADEMIC DEPARTMENT,Department of Theatre,Department of Theatre,http://www.bristol.ac.uk/theatre/
+INST,ACADEMIC ORG BODY,Institutes,Institutes,
+EBIN,ACADEMIC DEPARTMENT,Elizabeth Blackwell Institute,Elizabeth Blackwell Institute,http://www.bristol.ac.uk/blackwell/
+BRIG,ACADEMIC DEPARTMENT,Brigstow Institute,Brigstow Institute,
+JGIN,ACADEMIC DEPARTMENT,Jean Golding Institute,Jean Golding Institute,
+CABI,ACADEMIC DEPARTMENT,Cabot Institute,Cabot Institute,http://www.bristol.ac.uk/cabot/
+SDEV,ADMIN UNIT,Staff Training & Development,Staff Training & Development,http://www.bris.ac.uk/Depts/SDev/
+TLSU,ADMIN UNIT,Teaching Support Unit,Teaching Support Unit,http://www.bris.ac.uk/tsu/
+WILL,ACADEMIC UNIT,Wills Hall,Wills Hall,http://www.bristol.ac.uk/wills-hall/
+HIST,ACADEMIC DEPARTMENT,Department of History (Historical Studies),History,http://www.bristol.ac.uk/history/
+URCN,ACADEMIC UNIT,Research Centre for Neuroendocrinology,Research Centre for Neuroendocrinology,http://www.bris.ac.uk/Depts/URCN/
+BURS,ADMIN DEPARTMENT,Bursar and Estates Office,Bursar and Estates Office,http://www.bristol.ac.uk/estates/
+ORED,ADMIN DEPARTMENT,Research and Enterprise Development,Research and Enterprise Development,http://www.bristol.ac.uk/red/
+RVGP,ADMIN UNIT,Research Ventures Group,Research Ventures Group,http://www.bris.ac.uk/Depts/Registrar/RES/rvg/
+CSER,ADMIN UNIT,Client Services,Client Services,
+PSER,ADMIN UNIT,Public Services,Public Services,
+IMAN,ADMIN UNIT,Library Services,Library Services,http://www.bristol.ac.uk/library/
+ISYS,ADMIN UNIT,IT Services,IT Services,http://www.bristol.ac.uk/it-services/
+PORT,ADMIN SUBUNIT,Portering,Portering,
+TWIG,ADMIN SUBUNIT,Transport Plan,Transport Plan,http://www.bris.ac.uk/transportplan/
+MEPH,ACADEMIC SUBUNIT,Medical Physics,Medical Physics,http://www.bris.ac.uk/Depts/Medphys/
+MGRC,ACADEMIC UNIT,Department of Management,Department of Management,http://www.bris.ac.uk/management/
+JISC,ADMIN UNIT,Joint Information Systems Committee,Joint Information Systems Committee,
+DEVO,ADMIN DEPARTMENT,Development and Alumni Relations Office,Development and Alumni Relations Office,http://www.bris.ac.uk/alumni/
+DISA,ACADEMIC DEPARTMENT,Institute for Disability Studies,Institute for Disability Studies,
+ORDS,ACADEMIC SCHOOL,School of Oral & Dental Sciences,Oral & Dental Sciences,http://www.bristol.ac.uk/dental/
+IVFS,ACADEMIC UNIT,In-Vitro Centre for Reproductive Medicine,In-Vitro Centre for Reproductive Medicine,
+RHEU,ACADEMIC SUBUNIT,Academic Rheumatology,Academic Rheumatology,
+ORTH,ACADEMIC SUBUNIT,Orthopaedic Surgery,Orthopaedic Surgery,http://www.bris.ac.uk/Depts/OrthoSurgery/orthosurgery.htm
+DING,ADMIN SUBUNIT,Coombe Dingle Bar,Coombe Dingle Bar,
+LAWF,ACADEMIC OFFICE,Faculty of Law,Faculty of Law,http://www.bris.ac.uk/Depts/Law/
+EDUC,ACADEMIC SCHOOL,Graduate School of Education,Graduate School of Education,http://www.bristol.ac.uk/education/
+SUPT,ADMIN SUBUNIT,Support Services,Support Services,
+TTRS,ADMIN UNIT,Trainee Technicians,Trainee Technicians,
+BOTA,ACADEMIC DEPARTMENT,Department of Botany,Botany,
+VPUB,ADMIN SUBUNIT,Video Publishing Unit,Video Publishing Unit,
+EERC,ACADEMIC UNIT,Earthquake Engineering (URC),Earthquake Engineering (URC),http://www.bristol.ac.uk/eerc/
+MOLE,ACADEMIC UNIT,Molecular Genetics Unit,Molecular Genetics Unit,
+DURD,ACADEMIC UNIT,Durdham Hall,Durdham Hall,http://www.bristol.ac.uk/durdham/
+ADMO,ADMIN UNIT,Admissions,Admissions,http://www.bristol.ac.uk/sraa/admissions-office/ug-admissions/
+FINC,ADMIN DEPARTMENT,Finance Services,Finance Services,http://www.bristol.ac.uk/finance/
+MENH,ACADEMIC UNIT,Psychiatry,Psychiatry,http://www.bristol.ac.uk/psychiatry/
+MATH,ACADEMIC SCHOOL,School of Mathematics,Mathematics,http://www.bristol.ac.uk/maths/
+VICR,ADMIN SUBUNIT,The Victoria Rooms,The Victoria Rooms,
+MDSM,ACADEMIC SUBUNIT,University Medicine Southmead,University Medicine Southmead,
+CCSS,ACADEMIC UNIT,Centre for Computing in Social Sciences,Centre for Computing in Social Sciences,
+IAST,ACADEMIC DEPARTMENT,Institute for Advanced Studies,Institute for Advanced Studies,http://www.bristol.ac.uk/ias/
+DFAS,ACADEMIC UNIT,Farm Animal Science,Farm Animal Science,
+PRIM,ACADEMIC UNIT,Primary Health Care,Primary Health Care,http://www.bristol.ac.uk/primaryhealthcare/
+PORE,ACADEMIC UNIT,Townsend Centre for International Poverty Research (URC),Townsend Centre for International Poverty Research (URC),
+FACE,ADMIN DEPARTMENT,Faculty of Arts Continuing Education,Faculty of Arts Continuing Education,
+COUN,ADMIN UNIT,Staff Counselling Service,Staff Counselling Service,http://www.bristol.ac.uk/staffcounselling/
+BBUD,ADMIN SUBUNIT,Building Services (the Downs),Building Services (the Downs),http://www.bristol.ac.uk/Depts/Bursar/BuildingServices/ubshome.htm
+DPPP,ADMIN DEPARTMENT,Strategic Planning and Governance Office,Strategic Planning and Governance,http://www.bristol.ac.uk/planning/
+SINS,ADMIN UNIT,Student Information,Student Information,
+DACA,ADMIN DEPARTMENT,Deputy Registrar,Deputy Registrar,http://www.bristol.ac.uk/directorate-academic/
+VPIM,ACADEMIC UNIT,Veterinary Pathology and Infection and Immunity,Veterinary Pathology and Infection and Immunity,
+ARCH,ACADEMIC DEPARTMENT,Department of Archaeology and Anthropology,Archaeology and Anthropology,http://www.bris.ac.uk/archanth/
+TSRC,ACADEMIC SUBUNIT,Transplantation Sciences (URC),Transplantation Sciences (URC),
+LLAB,ACADEMIC UNIT,Language Laboratory,Language Laboratory,
+EMBS,ACADEMIC UNIT,Early Modern British Studies (URC),Early Modern British Studies (URC),
+ACRC,ACADEMIC UNIT,Advanced Computing Centre (URC),Advanced Computing Centre (URC),http://www.acrc.bris.ac.uk
+ATHF,ADMIN DEPARTMENT,"Centre for Sport, Exercise & Health","Centre for Sport, Exercise & Health",http://www.bris.ac.uk/sport/
+ECHI,ACADEMIC UNIT,Early Childhood Development Centre,Early Childhood Development Centre,
+VMED,ACADEMIC DEPARTMENT,Department of Veterinary Medicine,Veterinary Medicine,
+HILA,ACADEMIC DEPARTMENT,"Department of Hispanic, Portuguese and Latin American Studies","Hispanic, Portuguese and Latin American Studies",http://www.bristol.ac.uk/hispanic/
+TRAN,ACADEMIC UNIT,Division of Transplantation Sciences,Transplantation Sciences,
+EDTS,ACADEMIC UNIT,Educational Technology Services Unit,Educational Technology Services Unit,
+MICB,ACADEMIC DEPARTMENT,Microbiology,Microbiology,
+BADO,ACADEMIC UNIT,Badock Hall,Badock Hall,http://www.bristol.ac.uk/badock/
+PLEG,ACADEMIC DEPARTMENT,Department of Professional Legal Studies,Professional Legal Studies,
+COED,ACADEMIC DEPARTMENT,Department for Continuing Education,Continuing Education,
+CLAS,ACADEMIC DEPARTMENT,Department of Classics & Ancient History,Classics & Ancient History,http://www.bristol.ac.uk/classics/
+THCO,ACADEMIC UNIT,The University of Bristol Theatre Collection,University of Bristol Theatre Collection,http://www.bris.ac.uk/theatrecollection/
+PYSI,ACADEMIC DEPARTMENT,Department of Physiology,Physiology,http://www.bris.ac.uk/Depts/Physiology/
+BISC,ACADEMIC SCHOOL,School of Biological Sciences,Biological Sciences,http://www.bristol.ac.uk/biology/
+CREF,ACADEMIC SUBUNIT,Research Floor BRI,Research Floor BRI,
+CMCC,ACADEMIC DEPARTMENT,Department of Clinical Medicine,Clinical Medicine,http://www.bris.ac.uk/Depts/ClinMed/
+CHAP,ADMIN UNIT,Multifaith Chaplaincy,Multifaith Chaplaincy,http://www.bristol.ac.uk/chaplaincy/
+DPCD,ACADEMIC UNIT,Preclinical Dental Dean,Preclinical Dental Dean,
+CEGF,ACADEMIC UNIT,Centre for Environmental and Geophysical Flows (URC),Centre for Environmental and Geophysical Flows (URC),http://www.maths.bris.ac.uk/%7Eamnag/cegf/
+BBUL,ADMIN SUBUNIT,Estate Services - Langford,Estate Services - Langford,
+GORC,ACADEMIC UNIT,Governance Research Centre,Governance Research Centre,http://www.bristol.ac.uk/grc/
+CACS,ACADEMIC UNIT,Centre for Access and Communication Studies,Centre for Access and Communication Studies,http://www.bris.ac.uk/cacs/
+ALSP,ACADEMIC UNIT,Avon Longitudinal Study of Parents and Children,Avon Longitudinal Study of Parents and Children,http://www.bristol.ac.uk/alspac/
+FENW,ADMIN SUBUNIT,External Estates (Fenswood Farm),External Estates (Fenswood Farm),
+MVSF,ACADEMIC OFFICE,Biomedical Sciences Faculty Office,Biomedical Sciences Faculty Office,http://www.bristol.ac.uk/biomedical-sciences/
+SSLF,ACADEMIC OFFICE,Social Sciences and Law Faculty Office,Social Sciences and Law Faculty Office,http://www.bristol.ac.uk/fssl/
+SSIN,ADMIN SUBUNIT,Student Systems and Information,Student Systems and Information Office (SSIO),http://www.bristol.ac.uk/ssio/
+ANTH,ACADEMIC UNIT,Anthropology,Anthropology,http://www.bris.ac.uk/anthropology
+CSSB,ACADEMIC DEPARTMENT,Clinical Science at South Bristol,Clinical Science at South Bristol,http://www.bristol.ac.uk/clinicalsciencesouth/
+NBCS,ACADEMIC DEPARTMENT,Clinical Science at North Bristol,Clinical Science at North Bristol,http://www.bristol.ac.uk/clinicalsciencenorth/
+COBM,ACADEMIC DEPARTMENT,Community-Based Medicine,Community-Based Medicine,http://www.bristol.ac.uk/cobm/
+SURS,ACADEMIC UNIT,Surgery (South Bristol),Surgery (South Bristol),
+CHHC,ACADEMIC UNIT,Child Health (Community-Based),Child Health (Community-Based),
+CMDC,ACADEMIC UNIT,Clinical Medicine (Community-Based),Clinical Medicine (Community-Based),
+MEED,ACADEMIC UNIT,Centre for Medical Education,Centre for Medical Education,
+DHBG,ACADEMIC UNIT,Henry Wellcome Laboratories for Integrative Neuroscience and Endocrinology,Henry Wellcome Laboratories for Integrative Neuroscience and Endocrinology,http://www.bristol.ac.uk/clinicalsciencesouth/hwline/
+LTSS,ADMIN SUBUNIT,Learning Technology Support Service,Learning Technology Support Service,http://www.ltss.bris.ac.uk/
+CHDS,ACADEMIC UNIT,Child Health (South Bristol),Child Health (South Bristol),
+SOMS,ACADEMIC SCHOOL,School of Medical Sciences,Medical Sciences,http://www.bristol.ac.uk/medicalsciences/
+SITE,ADMIN UNIT,Site Services,Site Services,http://www.bris.ac.uk/Depts/SiteServices/
+FEGL,SERVICES SUBUNIT,Fenswood Glasshouses,Fenswood Glasshouses,
+LACU,ADMIN UNIT,Langford Animal Care Unit,Langford Animal Care Unit,
+EFIM,ACADEMIC SCHOOL,"School of Economics, Finance and Management","Economics, Finance and Management",http://www.bris.ac.uk/efm/
+ACFI,ACADEMIC UNIT,Department of Accounting and Finance,Accounting and Finance,http://www.bris.ac.uk/accounting/
+ACHS,ACADEMIC SCHOOL,School of Applied Community and Health Studies,Applied Community and Health Studies,
+AUDI,ACADEMIC UNIT,Centre for Hearing and Balance Studies,Centre for Hearing and Balance Studies,
+STHS,ACADEMIC UNIT,Student Houses,Student Houses,http://www.bris.ac.uk/Depts/StudentHouses/
+ELAW,ACADEMIC UNIT,Engineering Law,Engineering Law,
+REGI,UNIV ORG BODY,Support Services,Support Services,http://www.bristol.ac.uk/supportservices/
+STCS,ADMIN UNIT,Student Counselling Service,Student Counselling Service,http://www.bris.ac.uk/student-counselling/
+UNHA,ACADEMIC UNIT,University Hall,University Hall,http://www.bris.ac.uk/universityhall/
+STAC,ADMIN SUBUNIT,Staff Accommodation,Staff Accommodation,
+UNIO,ADMIN DEPARTMENT,University Union,University Union,http://www.bristolsu.org.uk/
+STAB,ADMIN SUBUNIT,Study Abroad Office,Study Abroad Office,http://www.bris.ac.uk/international/studyabroad/
+CHHT,ACADEMIC UNIT,Division of Child Health,Child Health,http://www.ich.bris.ac.uk/
+DICE,ADMIN ORG BODY,Directorate of Continuing Education,Directorate of Continuing Education,
+REST,SERVICES SUBUNIT,Residential Estate Services,Residential Estate Services,
+BIRH,ACADEMIC UNIT,Bristol Institute for Research in the Humanities and Arts,Bristol Institute for Research in the Humanities and Arts,http://www.bris.ac.uk/arts/birtha/
+WIDE,ADMIN UNIT,UK Student Recruitment,UK Student Recruitment,http://www.bristol.ac.uk/sraa/uk-student-recruitment/
+RADS,ACADEMIC SUBUNIT,Radiology,Radiology,
+GAST,ACADEMIC SUBUNIT,Gastroenterology,Gastroenterology,
+CSCP,ACADEMIC UNIT,Centre for the Study of Colonial & Post-Colonial Societies,Centre for the Study of Colonial & Post-Colonial Societies,http://www.bris.ac.uk/colonialstudies/
+IPSS,ADMIN DEPARTMENT,Strategic Programmes and Projects,Strategic Programmes and Projects,http://www.bristol.ac.uk/strategic-projects/
+ASUB,SERVICES DEPARTMENT,Services Unit,Services Unit,
+PASU,SERVICES UNIT,Precinct Services Unit,Precinct Services Unit,
+LASU,SERVICES UNIT,Langford Services Unit,Langford Services Unit,
+RFLS,ACADEMIC UNIT,Research & Teaching Floor Level 7,Research & Teaching Floor Level 7,
+TORC,ACADEMIC UNIT,Research & Teaching Units,Research & Teaching Units,
+BCCE,ACADEMIC UNIT,Bristol Colloid Centre,Bristol Colloid Centre,http://www.bristol.ac.uk/bcc/
+ECON,ACADEMIC UNIT,Department of Economics,Economics,http://www.bris.ac.uk/economics/
+UTIL,ADMIN DEPARTMENT,Sustainability,Sustainability,http://www.bristol.ac.uk/environment/
+LCVS,ADMIN UNIT,Langford Clinical Veterinary Service,Langford Clinical Veterinary Service,
+MUSI,ACADEMIC DEPARTMENT,Department of Music,Music,http://www.bris.ac.uk/music/
+CONV,ADMIN UNIT,Convocation Office,Convocation Office,
+BRNU,SERVICES UNIT,Barn 1 Services Unit,Barn 1 Services Unit,
+STWL,SERVICES UNIT,Southwell Services Unit,Southwell Services Unit,
+DHSU,SERVICES UNIT,Dorothy Hodgkin Building Services Unit,Dorothy Hodgkin Building Services Unit,
+SART,ACADEMIC SCHOOL,School of Arts,Arts,http://www.bristol.ac.uk/school-of-arts/
+HUMS,ACADEMIC SCHOOL,School of Humanities,Humanities,http://www.bris.ac.uk/humanities/
+STAD,ADMIN UNIT,Student Administration,Student Administration,
+AHAH,ACADEMIC UNIT,Division of Animal Health and Husbandry,Animal Health and Husbandry,
+HEAG,ACADEMIC UNIT,International Institute on Health and Ageing,International Institute on Health and Ageing,http://www.bris.ac.uk/Depts/IIHA/
+MSAD,ACADEMIC UNIT,Biomedical Sciences Building,Biomedical Sciences Building,
+MECH,ACADEMIC DEPARTMENT,Department of Mechanical Engineering,Mechanical Engineering,http://www.bristol.ac.uk/mecheng/
+EDSU,ADMIN DEPARTMENT,Education Support Unit,Education Support Unit,http://www.bristol.ac.uk/esu/
+BUES,ADMIN UNIT,Estates Strategic Programmes,Estates Strategic Programmes,http://www.bristol.ac.uk/estates/
+BUAR,ADMIN UNIT,Capital Maintenance & Infrastructure,Capital Maintenance & Infrastructure,http://www.bris.ac.uk/estates/departments/capital-maintenance/
+PROM,ADMIN DEPARTMENT,Space and Asset Management,Space and Asset Management,http://www.bris.ac.uk/property/
+ACCO,ADMIN UNIT,Accommodation Office,Accommodation Office,http://www.bris.ac.uk/accommodation/
+BBUI,ADMIN UNIT,Maintenance Services,Maintenance Services,http://www.bristol.ac.uk/Depts/Bursar/BuildingServices/index.htm
+REMV,ADMIN UNIT,Public and Ceremonial Events Office,Public and Ceremonial Events Office,http://www.bris.ac.uk/pace/
+PERS,ADMIN DEPARTMENT,Human Resources,Human Resources,http://www.bristol.ac.uk/hr/
+AFPU,ADMIN UNIT,Photographic Service,Photographic Service,http://www.bris.ac.uk/cms/pro/photographic
+NORA,ACADEMIC UNIT,Norah Fry Research Centre,Norah Fry Research Centre,http://www.bristol.ac.uk/norahfry/
+ENGF,ACADEMIC OFFICE,Engineering Faculty Office,Engineering Faculty Office,http://www.bristol.ac.uk/engineering/
+SOWK,ACADEMIC UNIT,Department of Social Work,Social Work,
+CEME,ACADEMIC UNIT,Centre for Mediterranean Studies (URC),Centre for Mediterranean Studies (URC),http://www.bris.ac.uk/info/www/Depts/CMS/cms.html
+ANAE,ACADEMIC UNIT,Division of Anaesthesia,Anaesthesia,http://www.bris.ac.uk/Depts/Anaesthesia/site1.htm
+CMED,ACADEMIC UNIT,Medical Education,Medical Education,
+RNUT,ADMIN UNIT,Royal Naval Unit,Royal Naval Unit,http://www.bris.ac.uk/Groups/BristolURNU/
+CFBB,ACADEMIC UNIT,Centre for Behavioural Biology (URC),Centre for Behavioural Biology (URC),http://www.bio.bris.ac.uk/research/behavior/behavior.htm
+BFAC,ADMIN DEPARTMENT,Facilities Management,Facilities Management,http://www.bristol.ac.uk/estates/departments/facilities-management/
+DCLD,ACADEMIC UNIT,Dental Clinical Dean,Dental Clinical Dean,
+MACB,ACADEMIC UNIT,Division of Molecular and Cellular Biology,Molecular and Cellular Biology,http://www.vetschool.bris.ac.uk/
+NSQI,ACADEMIC UNIT,The Bristol Centre for Nanoscience and Quantum Information,Centre for Nanoscience and Quantum Information,http://www.bristol.ac.uk/nsqi-centre/
+AVIA,ADMIN UNIT,Learning Facilities Management,Learning Facilities Management,http://www.bris.ac.uk/property/teachingspace/aboutava.html
+MDYF,ACADEMIC OFFICE,Health Sciences Faculty Office,Health Sciences Faculty Office,http://www.bristol.ac.uk/health-sciences/
+BURW,SERVICES UNIT,Burwalls Centre for Continuing Education,Burwalls Centre for Continuing Education,
+ISCA,ADMIN UNIT,Information Services Central Administration,Information Services Central Administration,
+GSAH,ACADEMIC SCHOOL,Graduate School of Arts and Humanities,Graduate School of Arts and Humanities,http://www.bristol.ac.uk/arts/gradschool/
+TSET,ACADEMIC UNIT,Tsetse Research Laboratory,Tsetse Research Laboratory,
+BPRO,ADMIN UNIT,Space and Asset Management Office,Space and Asset Management Office,
+POLP,SERVICES DEPARTMENT,Bristol University Press,Bristol University Press,http://www.policypress.co.uk
+SUPP,UNIV ORG BODY,Professional Services,Professional Services,http://www.bristol.ac.uk/university/governance/organisational-structure/professional-services/
+FENG,ACADEMIC ORG BODY,Faculty of Engineering,Faculty of Engineering,http://www.bristol.ac.uk/engineering/
+FOAT,ACADEMIC ORG BODY,Faculty of Arts,Faculty of Arts,http://www.bristol.ac.uk/arts/
+FMVS,ACADEMIC ORG BODY,Faculty of Biomedical Sciences,Faculty of Biomedical Sciences,http://www.bris.ac.uk/biomedical-sciences/
+FMDY,ACADEMIC ORG BODY,Faculty of Health Sciences,Faculty of Health Sciences,http://www.bristol.ac.uk/health-sciences/
+FSSL,ACADEMIC ORG BODY,Faculty of Social Sciences and Law,Faculty of Social Sciences and Law,http://www.bristol.ac.uk/fssl/
+CASU,CORP ORG BODY,Services Unit,Services Unit,
+CCOR,CORP ORG BODY,Corporate Costs,Corporate Costs,
+ACAD,ACADEMIC ORG BODY,Academic Faculties,Academic Faculties,
+CORP,UNIV ORG BODY,Other Corporate Areas,Other Corporate Areas,
+DCAM,ADMIN ORG BODY,Development and Alumni Relations,Development and Alumni Relations,
+DFIN,ADMIN ORG BODY,Finance Services,Finance Services,
+DPER,ADMIN ORG BODY,Human Resources,Human Resources,
+DRES,ADMIN ORG BODY,Research and Enterprise Development,Research and Enterprise Development,
+DSEC,ADMIN ORG BODY,University Secretary's Office,University Secretary's Office,
+DARG,ADMIN ORG BODY,Academic Registry,Academic Registry,http://www.bristol.ac.uk/academicregistry/
+DEDU,ADMIN ORG BODY,Education Support Unit,Education Support Unit,
+DSEH,ADMIN ORG BODY,"Centre for Sport, Exercise and Health","Centre for Sport, Exercise and Health",
+DRCO,ADMIN ORG BODY,Residential and Hospitality Services,Residential and Hospitality Services,http://www.bristol.ac.uk/residential-hospitality/
+DSTM,ADMIN ORG BODY,Senior Team,Senior Team,http://www.bristol.ac.uk/university/governance/constitutionaldocs/universityofficers/senior-staff/
+ESOP,ADMIN DEPARTMENT,Estates Operations,Estates Operations,
+SRAA,ADMIN UNIT,"Student Recruitment, Access and Admissions Division","Student Recruitment, Access and Admissions Division",http://www.bristol.ac.uk/sraa/
+STSS,ADMIN DEPARTMENT,Students Services,Students Services,
+FLAW,ACADEMIC ORG BODY,Faculty of Law,Faculty of Law,
+CAMP,ADMIN DEPARTMENT,Campaign for Resource,Campaign for Resource,
+CPRO,ADMIN UNIT,Central Property Costs,Central Property Costs,
+HPRO,ADMIN UNIT,Hospital Property Costs,Hospital Property Costs,
+FSOC,ACADEMIC ORG BODY,Faculty of Social Sciences,Faculty of Social Sciences,
+FMED,ACADEMIC ORG BODY,Faculty of Medicine,Faculty of Medicine,
+DEST,ADMIN ORG BODY,Estates,Estates,
+DISR,ADMIN ORG BODY,Information Services,Information Services,
+DCMM,ADMIN ORG BODY,Marketing and Communications Division,Communications and Marketing,
+CAOP,ADMIN DEPARTMENT,Catering Operations,Catering Operations,
+CINC,SERVICES UNIT,Corporate Costs,Corporate Costs,
+FSCI,ACADEMIC ORG BODY,Faculty of Science,Faculty of Science,http://www.bristol.ac.uk/science/
+BSSS,SERVICES UNIT,Biological Sciences Services Unit,Biological Sciences Services Unit,
+FRPE,ACADEMIC UNIT,Food Refrigeration and Process Engineering Research Centre,Food Refrigeration and Process Engineering Research Centre,http://www.frperc.bris.ac.uk
+DCLS,ACADEMIC UNIT,Clinical Dean Southmead Hospital,Clinical Dean Southmead Hospital,
+EMRC,ACADEMIC UNIT,Engineering Materials (URC),Engineering Materials (URC),http://www.fen.bris.ac.uk/mech/emrc/emrc.html
+ETHM,ACADEMIC UNIT,Centre for Ethics in Medicine,Centre for Ethics in Medicine,http://www.bristol.ac.uk/ethicsinmedicine/
+PHED,ACADEMIC DEPARTMENT,"Centre for Exercise, Nutrition and Health Sciences","Exercise, Nutrition and Health Sciences",http://www.bristol.ac.uk/enhs/
+SURN,ACADEMIC UNIT,Surgery (North Bristol),Surgery (North Bristol),
+CEAS,ACADEMIC UNIT,Centre for East Asian Studies,Centre for East Asian Studies,http://www.bristol.ac.uk/ceas/
+SENR,ADMIN UNIT,Senior Common Room,Senior Common Room,http://www.bristol.ac.uk/scr/
+MISD,ADMIN UNIT,Management Information Services,Management Information Services,http://www.bris.ac.uk/Depts/Registrar/MIS/
+ADSI,ADMIN UNIT,Disability Services,Disability Services,http://www.bristol.ac.uk/disability-services/
+LCLB,ADMIN UNIT,Langford Club,Langford Club,
+OSLO,ADMIN SUBUNIT,Overseas Liaison Office,Overseas Liaison Office,
+PRIN,ADMIN UNIT,Print Services,Print Services,http://www.bristol.ac.uk/print-services/
+STAT,ADMIN SUBUNIT,Stationery Office,Stationery Office,
+MEDF,ACADEMIC OFFICE,Faculty of Medicine,Faculty of Medicine,http://www.medici.bris.ac.uk/medf/
+INFO,ADMIN UNIT,Public Relations Office,Public Relations Office,http://www.bris.ac.uk/public-relations/
+PSYC,ACADEMIC SCHOOL,School of Experimental Psychology,Experimental Psychology,http://www.bristol.ac.uk/expsych
+VGEN,ACADEMIC UNIT,Veterinary General,Veterinary General,
+OMED,ACADEMIC UNIT,"Oral Medicine, Pathology and Microbiology","Oral Medicine, Pathology and Microbiology",
+IFAC,ACADEMIC UNIT,Interface Analysis Centre,Interface Analysis Centre,http://www.bristol.ac.uk/physics/research/iac/
+EXAM,ADMIN SUBUNIT,Examinations Office,Examinations Office,http://www.bristol.ac.uk/exams/
+GEOG,ACADEMIC SCHOOL,School of Geographical Sciences,Geographical Sciences,http://www.bristol.ac.uk/geography/
+GELY,ACADEMIC SCHOOL,School of Earth Sciences,Earth Sciences,http://www.bristol.ac.uk/earthsciences/
+MANO,ACADEMIC UNIT,Manor Hall,Manor Hall,http://www.bris.ac.uk/Depts/Manor/
+MARK,ADMIN UNIT,Conference Office,Conference Office,http://www.bristol.ac.uk/conferences-hospitality/
+ENGL,ACADEMIC DEPARTMENT,Department of English,English,http://www.bris.ac.uk/english/
+ALUM,ADMIN UNIT,Alumni Relations Office,Alumni Relations Office,http://www.bris.ac.uk/alumni/
+STED,ADMIN SUBUNIT,JobShop,JobShop,http://www.bristol.ac.uk/careers/jobshop/
+HFLO,ACADEMIC UNIT,Animal Services Unit,Animal Services Unit,
+FACL,ADMIN UNIT,Faculty Offices,Faculty Offices,
+SEAD,ADMIN UNIT,General Administration (Secretary),General Administration (Secretary),
+SPOL,ACADEMIC SCHOOL,School for Policy Studies,Policy Studies,http://www.bristol.ac.uk/sps/
+EPID,ACADEMIC DEPARTMENT,Department of Epidemiology and Public Health Medicine,Epidemiology and Public Health Medicine,
+EURO,ADMIN SUBUNIT,European Office,European Office,
+OWEL,ADMIN SUBUNIT,Overseas Welfare Office,Overseas Welfare Office,
+AMAR,ACADEMIC UNIT,Advanced Manufacturing & Automation (URC),Advanced Manufacturing & Automation (URC),
+WINK,ACADEMIC SUBUNIT,Winkworth House,Winkworth House,
+HAMP,ACADEMIC SUBUNIT,Hampton House,Hampton House,
+SECR,ADMIN DEPARTMENT,Office of the Secretary,Office of the Secretary,
+SOLS,ACADEMIC UNIT,Centre for Socio-Legal Studies,Centre for Socio-Legal Studies,
+TELE,ADMIN UNIT,Telephone and Video Conference Services,Telephone and Video Conference Services,http://www.bris.ac.uk/telephones/
+REPR,ADMIN SUBUNIT,Reprographics,Reprographics,
+CONF,ADMIN SUBUNIT,Conference Office,Conference Office,
+GRIN,ACADEMIC UNIT,Institute of Grinding Technology,Institute of Grinding Technology,http://www.fen.bris.ac.uk/igt
+LACT,ADMIN SUBUNIT,Langford Catering Office,Langford Catering Office,
+CRAG,ACADEMIC UNIT,Countryside and Recreation Advisory Group,Countryside and Recreation Advisory Group,
+SAUS,ACADEMIC DEPARTMENT,School for Advanced Urban Studies,Advanced Urban Studies,
+PTCH,ACADEMIC UNIT,Physical & Theoretical Chemistry,Physical & Theoretical Chemistry,
+PSPH,ACADEMIC UNIT,Psycho Pharmacology Unit,Psycho-Pharmacology Unit,http://www.bris.ac.uk/Depts/ClinMed/PsychPharm/
+CELD,ACADEMIC SUBUNIT,Subdivision of Care of the Elderly,Subdivision of Care of the Elderly,
+SITG,ADMIN UNIT,External Estate,External Estate,http://www.bristol.ac.uk/external-estate/
+SENQ,ADMIN UNIT,Enquiry Office,Enquiry Office,
+ANHU,ACADEMIC DEPARTMENT,Department of Animal Husbandry,Animal Husbandry,
+BIOC,ACADEMIC SCHOOL,School of Biochemistry,Biochemistry,http://www.bris.ac.uk/biochemistry/
+AGSC,ACADEMIC DEPARTMENT,Department of Agricultural Sciences,Agricultural Sciences,http://www.bris.ac.uk/Depts/Science/agrsci.htm
+DEAF,ACADEMIC UNIT,Centre for Deaf Studies,Centre for Deaf Studies,
+BESM,ADMIN SUBUNIT,Engineering Services Management Office,Engineering Services Management Office,
+GPTU,ACADEMIC UNIT,General Practice Unit,General Practice Unit,
+GOLD,ACADEMIC UNIT,Goldney Hall,Goldney Hall,http://www.bris.ac.uk/goldney/
+AERO,ACADEMIC DEPARTMENT,Department of Aerospace Engineering,Aerospace Engineering,http://www.bristol.ac.uk/aerospace/
+BPUR,ADMIN DEPARTMENT,Estates Contracting Group,Estates Contracting Group,http://www.bristol.ac.uk/estates/departments/ecg/
+BCOS,ADMIN SUBUNIT,Cost Office,Cost Office,
+NDRC,ACADEMIC UNIT,National Development Centre,National Development Centre,
+ORCH,ACADEMIC UNIT,Organic & Biological Chemistry,Organic & Biological Chemistry,
+OSEA,ADMIN SUBUNIT,Overseas Married Accommodation Office,Overseas Married Accommodation Office,
+LAHO,ADMIN SUBUNIT,Site Services (Langford House),Site Services (Langford House),
+FARM,ACADEMIC UNIT,Langford Farm,Langford Farm,
+HCAR,ACADEMIC UNIT,Health Care Evaluation Unit,Health Care Evaluation Unit,
+HBAK,ACADEMIC UNIT,Hiatt Baker Hall,Hiatt Baker Hall,http://www.bristol.ac.uk/hiattbaker/
+HOUS,ADMIN SUBUNIT,Housekeeping Office,Housekeeping Office,
+CONC,ACADEMIC UNIT,Concerts Office,Concerts Office,
+COMP,ADMIN UNIT,Computing Service,Computing Service,http://www.cse.bris.ac.uk/
+MEDI,ACADEMIC UNIT,Medicine,Medicine,http://www.bris.ac.uk/Depts/DivMed/
+MODL,ACADEMIC SCHOOL,School of Modern Languages,Modern Languages,http://www.bristol.ac.uk/sml/
+CLIN,ACADEMIC UNIT,Clinical Audit Unit,Clinical Audit Unit,
+SOCF,ACADEMIC OFFICE,Faculty of Social Sciences,Faculty of Social Sciences,http://www.bris.ac.uk/Depts/SocSci/
+VSUR,ACADEMIC DEPARTMENT,Department of Veterinary Surgery,Veterinary Surgery,
+MDPG,ACADEMIC UNIT,Medical Postgraduate Unit,Medical Postgraduate Division,
+INLO,ADMIN DEPARTMENT,Research Support and Industrial Liaison Office,Research Support and Industrial Liaison Office,http://www.bris.ac.uk/Depts/RSILO/
+MORE,ACADEMIC UNIT,Molecular Recognition Centre (URC),Molecular Recognition Centre (URC),http://www.bch.bris.ac.uk/mrc/mrc.HTML
+RUSS,ACADEMIC DEPARTMENT,Department of Russian,Russian,http://www.bris.ac.uk/russian/
+ZOOL,ACADEMIC DEPARTMENT,Department of Zoology,Zoology,
+MAXF,ACADEMIC UNIT,Oral and Maxillo-Facial Surgery,Oral and Maxillo-Facial Surgery,
+PROP,ADMIN UNIT,Property Services Office,Property Services Office,
+DPRO,ACADEMIC UNIT,Prosthodontics and Periodontology,Prosthodontics and Periodontology,
+PHAR,ACADEMIC DEPARTMENT,Department of Pharmacology,Pharmacology,http://www.bristol.ac.uk/pharmacology/
+INTL,ADMIN UNIT,International Office,International Office,http://www.bris.ac.uk/international-office/
+EENG,ACADEMIC DEPARTMENT,Department of Electrical & Electronic Engineering,Electrical & Electronic Engineering,http://www.bristol.ac.uk/engineering/departments/eeng/
+EMAT,ACADEMIC DEPARTMENT,Department of Engineering Mathematics,Engineering Mathematics,http://www.bristol.ac.uk/engineering-maths/
+RADI,ACADEMIC UNIT,Division of Clinical Radiology,Clinical Radiology,http://www.rad.bris.ac.uk/
+ANAT,ACADEMIC DEPARTMENT,Centre for Applied Anatomy,Applied Anatomy,http://www.bristol.ac.uk/anatomy/
+BOTG,ADMIN SUBUNIT,University Botanic Garden,University Botanic Garden,http://www.bris.ac.uk/Depts/BotanicGardens/
+BCAP,ADMIN DEPARTMENT,Capital Projects,Capital Projects,
+CARU,ACADEMIC UNIT,RUCAR,RUCAR,
+SOAD,ACADEMIC UNIT,Department of Social Policy & Social Planning,Social Policy & Social Planning,
+SOCI,ACADEMIC DEPARTMENT,Department of Sociology,Sociology,http://www.bristol.ac.uk/sociology/
+SFIN,ADMIN SUBUNIT,Student Funding Office,Student Funding Office,http://www.bris.ac.uk/studentfunding/
+STHE,ADMIN UNIT,Students' Health Service,Students' Health Service,http://www.bristol.ac.uk/students-health/
+JSOC,ADMIN UNIT,Joint Social Club,Joint Social Club,http://www.bristol.ac.uk/staff-club/
+ITAL,ACADEMIC DEPARTMENT,Department of Italian,Italian,http://www.bristol.ac.uk/italian/
+LARY,ACADEMIC UNIT,"Laryngology, Rhinology & Otology","Laryngology, Rhinology & Otology",http://www.bris.ac.uk/Depts/ENT/
+LAWD,ACADEMIC SCHOOL,University of Bristol Law School,University of Bristol Law School,http://www.bristol.ac.uk/law/
+SURG,ACADEMIC UNIT,Division of Surgery,Surgery,http://www.bris.ac.uk/Depts/Surgery/
+SECU,ADMIN UNIT,Security Services,Security Services,http://www.bris.ac.uk/securityservices/
+PHIL,ACADEMIC DEPARTMENT,Department of Philosophy,Philosophy,http://www.bristol.ac.uk/philosophy/
+BIGC,ACADEMIC UNIT,Biogeochemical Research (URC),Biogeochemical Research (URC),
+EACH,ACADEMIC UNIT,Environmental and Analytical Chemistry,Environmental and Analytical Chemistry,
+CHEM,ACADEMIC SCHOOL,School of Chemistry,Chemistry,http://www.bristol.ac.uk/chemistry/
+LIBR,ADMIN UNIT,University Library Service,University Library Service,http://www.bris.ac.uk/Depts/Library/
+ARTF,ACADEMIC OFFICE,Arts Faculty Office,Arts Faculty Office,http://www.bristol.ac.uk/arts/
+CATC,ADMIN SUBUNIT,Catering Office,Catering Office,
+HAWT,ADMIN UNIT,The Hawthorns,The Hawthorns,http://www.bristol.ac.uk/hawthorns/
+ETOX,ACADEMIC UNIT,Environmental Toxicology Centre,Environmental Toxicology Centre,
+CIVE,ACADEMIC DEPARTMENT,Department of Civil Engineering,Civil Engineering,http://www.bristol.ac.uk/civilengineering/
+ONCO,ACADEMIC UNIT,Oncology,Oncology,http://www.bris.ac.uk/Depts/Oncology/
+INCH,ACADEMIC UNIT,Inorganic & Materials Chemistry,Inorganic & Materials Chemistry,
+COSC,ACADEMIC DEPARTMENT,Department of Computer Science,Computer Science,http://www.bristol.ac.uk/engineering/departments/computerscience/
+COND,ACADEMIC UNIT,Restorative Dentistry,Restorative Dentistry,
+UNIV,UNIVERSITY,The University of Bristol,The University of Bristol,
+BMEC,ADMIN SUBUNIT,Mechanical Services Office,Mechanical Services Office,
+BELE,ADMIN SUBUNIT,Electrical Services Office,Electrical Services Office,
+RODN,ACADEMIC UNIT,Rodney Lodge,Rodney Lodge,
+MDIL,ACADEMIC UNIT,Division of Medical Illustration,Medical Illustration,
+SMED,ACADEMIC DEPARTMENT,Department of Social Medicine,Social Medicine,http://www.epi.bris.ac.uk/
+THEA,ACADEMIC UNIT,Wickham Theatre,Wickham Theatre,http://www.bristol.ac.uk/drama/theatre/
+EFMG,ACADEMIC UNIT,Engineering Management Group,Engineering Management Group,http://www.fen.bris.ac.uk/engmgt/
+FMTV,ACADEMIC UNIT,Film and Television,Film and Television,
+LOAN,ADMIN SUBUNIT,Student Loans Office,Student Loans Office,
+MSDG,ACADEMIC UNIT,Director of Graduate Studies Medical School,Director of Graduate Studies Medical School,
+PLAN,ADMIN UNIT,Planning Support Unit,Planning Support Unit,http://www.bris.ac.uk/Depts/Registrar/Planning/
+WELC,ACADEMIC UNIT,Study of Welfare Change (URC),Study of Welfare Change (URC),
+READ,ADMIN DEPARTMENT,Academic Registrar's Office,Academic Registrar's Office,
+OBST,ACADEMIC UNIT,Obstetrics & Gynaecology,Obstetrics & Gynaecology,http://www.obgyn-bristoluniversity.org.uk/
+SAFE,ADMIN UNIT,Safety and Health Services,Safety and Health Services,http://www.bristol.ac.uk/safety/
+DCLF,ACADEMIC UNIT,Clinical Dean Frenchay Hospital,Clinical Dean Frenchay Hospital,
+DCLI,ACADEMIC UNIT,"Clinical Dean's Office, CfME",Clinical Dean's Office,
+VESC,ACADEMIC SCHOOL,School of Veterinary Sciences,Veterinary Sciences,http://www.bristol.ac.uk/vetscience/
+MOGT,ACADEMIC UNIT,Molecular Genetics Training & Support Laboratory,Molecular Genetics Training & Support Laboratory,
+CANE,ACADEMIC UNIT,Cancer Epidemiology Unit,Cancer Epidemiology Unit,
+PANM,ACADEMIC SCHOOL,School of Cellular and Molecular Medicine,Cellular and Molecular Medicine,http://www.bristol.ac.uk/cellmolmed
+POLI,ACADEMIC DEPARTMENT,Department of Politics,Politics,http://www.bristol.ac.uk/politics/
