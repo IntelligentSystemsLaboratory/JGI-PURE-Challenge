@@ -15,12 +15,17 @@ xbuild
 
 ## Common publications between organizations
 
-It is possible to visualise a chord diagram for all the years or the specified
-years in a comma-separated list as a GET parameter. Visit the examples:
+We counted how many times every research group has collaborated with another
+one by counting the number of common publications. With this information we
+created a Chord diagram from the years 2008 to 2013 that can be found in
+[docs/organizations.html][1].
 
-- To see all the years go to [docs/organizations.html][1]
-- To see only 2008 go to [docs/organizations.html?years=2008][2]
-- To see both 2012 and 2013 go to [docs/organizations.html?years=2012,2013][3]
+It is also possible to query one particular year by passing as a GET argument
+the specific year (e.g. for 2008 go to the link
+[docs/organizations.html?years=2008][2]).
+
+The same argument accepts a list of years separated by comma (e.g. for years
+2012 and 2013 follow the link [docs/organizations.html?years=2012,2013][3]).
 
 [1]:https://perellonieto.github.io/JGI-PURE-Challenge/organizations.html
 [2]:https://perellonieto.github.io/JGI-PURE-Challenge/organizations.html?years=2008
