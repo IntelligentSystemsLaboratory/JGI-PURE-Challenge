@@ -1,0 +1,17 @@
+{
+  "name": "story",
+  "homepage": "https://github.com/IRC-SPHERE/JGI-PURE-Challenge",
+  "authors": [
+    "Tom Diethe <tdiethe@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
