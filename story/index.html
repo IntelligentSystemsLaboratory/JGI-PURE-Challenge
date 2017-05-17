@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="author" content="Intelligent Systems Laboratory">
     <meta name="description" content="ISL entry to JGI PURE Challenge 2017">
+    <link rel="stylesheet" href="bower_components/reveal.js/css/theme/night.css"/>
     <!--<link href="style.css" rel="stylesheet">-->
     <link href="bower_components/reveal.js/css/print/pdf.css" rel="stylesheet" media="print">
 </head>
@@ -38,24 +39,32 @@
 
 <script src="bower_components/reveal.js/lib/js/head.min.js"></script>
 <script src="bower_components/reveal.js/js/reveal.js"></script>
-<script>Reveal.initialize({
-    history: true,
-    // rollingLinks: false,
-    dependencies: [
-        {
-            src: 'bower_components/reveal.js/plugin/highlight/highlight.js',
-            async: true,
-            callback: function () {
-                hljs.initHighlightingOnLoad();
-            }
-        }
-    ]
-});</script>
-<script src="bower_components/d3/d3.js"></script>
 <script>
-    var code = '<svg width="400" height="300">\n  <circle cx="50" cy="100" r="200" fill="steelblue" />\n  <circle cx="300" cy="200" r="150" fill="white"\n    stroke="steelblue" stroke-width="5" fill-opacity=".5" />\n</svg>';
-    d3.select('code#svg-code')
-        .text(code);
+    Reveal.initialize({
+        history: true,
+        controls: true,
+        progress: true,
+        loop: true,
+        mouseWheel: true,
+        rollingLinks: true,
+        theme: Reveal.getQueryHash().theme || 'default',
+        transition: Reveal.getQueryHash().transition || 'default',
+        dependencies: [
+            {
+                src: 'bower_components/reveal.js/plugin/highlight/highlight.js',
+                async: true,
+                callback: function () {
+                    hljs.initHighlightingOnLoad();
+                }
+            }
+        ]
+    });
 </script>
+<script src="bower_components/d3/d3.js"></script>
+<!--<script>-->
+    <!--var code = '<svg width="400" height="300">\n  <circle cx="50" cy="100" r="200" fill="steelblue" />\n  <circle cx="300" cy="200" r="150" fill="white"\n    stroke="steelblue" stroke-width="5" fill-opacity=".5" />\n</svg>';-->
+    <!--d3.select('code#svg-code')-->
+        <!--.text(code);-->
+<!--</script>-->
 </body>
 </html>
