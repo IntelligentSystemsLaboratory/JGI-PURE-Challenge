@@ -69,6 +69,26 @@
 			      #circle:hover path.fade {
 			      display: none;
 			      }
+
+
+        
+        .bar {
+            fill: #5f89ad;
+        }
+        
+        .axis {
+            font-size: 13px;
+        }
+        
+        .axis path,
+        .axis line {
+            fill: none;
+            display: none;
+        }
+        
+        .label {
+            font-size: 13px;
+        }
 		</style>
 	</head>
 	<body>
@@ -86,26 +106,42 @@
 
             <section>
 		<h2>What's in the data?</h2>
-		<p>
+		<p style="font-size:90%;">
                   From 2008 to 2013 <br/>
-                  34123 Publications: 14192 without Abstract,4459 without authors, and 1987 using duplicate titles. <br/>
-                  3263 Researchers from 448 Organisations of University of Bristol. <br/>
+                  34123 Publications: 14192 without Abstract,4459 without authors, and 1987 using duplicate titles. 3263 Researchers from 448 nested Organisations.<br/>
+                  The organisation hierarchy of University of Bristol has 7 levels with 'UNIV' in level 0, and the only level 7 organisation is "Transplantation Sciences (URC)" <br/>
                   
 		</p>
          </section>
 
+	<section>
+		<h2>Before we start analyzing</h2>
+		<p style="font-size:90%;">
+		  We filtered out publications without authors or having duplicate titles.<br/>
+                  
+                  We also choose Level 3 organisations to represent the organisation of a researcher because we want to compare organisations in the same level 
+                  and too many of them will be difficult to display their relations clearly in one graph. There are 133
+                  level 3 organisations, but only 68 of them have submmited papers in PURE system. <br/>
+                  
+		</p>
+         </section>
+
+
+
+
             <section>
 		<h3>Who are likely cooperating with others?</h3>
 		<p>
-                  Too many nested organisations to see this clearly.
-                  We choose Level 3 or above organisations for visualisation, as the "UNIV" is the Level 0 organisation. <br/>
+                   <br/>
                   <br/>
                   The following chord diagram shows the number of publications coauthored between different organisations and the proportion to the total number of publications from each organisation.
                   
 		</p>
 	    </section>
-		    
-	    <section>
+ 
+	  
+
+	<section>
 		<h4>Coorperation Chord Diagram</h4>
 
               <div id="slide2"></div>
@@ -255,9 +291,8 @@
 		}
 
 </script>
-
-
  </section>
+
 
 <section>
 	<h3>What's the popular research topic?</h3>
@@ -272,8 +307,10 @@ contributed, the size of a topic circle represents how many publications assigne
 
 </section>
 
+
+
 	    <section>
-			<h3>Discovered Topics</h3>
+			<h4>Discovered Topics</h4>
 			    <!--div id="slide3"></div-->
 			    <svg class="chart"><\svg>
 			    <script>
@@ -325,17 +362,23 @@ contributed, the size of a topic circle represents how many publications assigne
 			      .attr("x", 500)
                               .attr("y", 10)
                               .attr("text-anchor","start")
-			      .style("font-size", "16px")			      
-			      
+			      .style("font-size", "16px")
+
 			      csvg.append("text")
 			      .text("-- 5 Top Organisations: "+d.y2008_orgs)
 			      .attr("x", 500)
 			      .attr("y", 40)
                               .style("font-size", "16px")
-                              .attr("text-anchor","start")			      
+                              .attr("text-anchor","start")	
+			      
+			      csvg.append("text")
+			      .text("["+d.y2008_num_orgs+" Organisations, "+d.y2008_num_people+" Researchers, "+d.y2008_num_docs+" Publications]")
+			      .attr("x", 500)
+			      .attr("y", 70)
+                              .style("font-size", "12px")
+                              .attr("text-anchor","start")
 			      })
 			      .on("mouseout",function(){
-			      //d3.select("#tooltip").style("visibility", "hidden")
 			      csvg.selectAll("text")
 			      .attr("visibility", "hidden")
 			      });
@@ -359,7 +402,15 @@ contributed, the size of a topic circle represents how many publications assigne
 			      .attr("x", 500)
 			      .attr("y", 40)
                               .style("font-size", "16px")
-                              .attr("text-anchor","start")			      
+                              .attr("text-anchor","start")
+
+			      csvg.append("text")
+			      .text("["+d.y2009_num_orgs+" Organisations, "+d.y2009_num_people+" Researchers, "+d.y2009_num_docs+" Publications]")
+			      .attr("x", 500)
+			      .attr("y", 70)
+                              .style("font-size", "12px")
+                              .attr("text-anchor","start")
+			      
 			      })
 			      .on("mouseout",function(){
 			      //d3.select("#tooltip").style("visibility", "hidden")
@@ -387,6 +438,13 @@ contributed, the size of a topic circle represents how many publications assigne
 			      .attr("x", 500)
 			      .attr("y", 40)
                               .style("font-size", "16px")
+                              .attr("text-anchor","start")
+
+			      csvg.append("text")
+			      .text("["+d.y2010_num_orgs+" Organisations, "+d.y2010_num_people+" Researchers, "+d.y2010_num_docs+" Publications]")
+			      .attr("x", 500)
+			      .attr("y", 70)
+                              .style("font-size", "12px")
                               .attr("text-anchor","start")			      
 			      })
 			      .on("mouseout",function(){
@@ -415,6 +473,13 @@ contributed, the size of a topic circle represents how many publications assigne
 			      .attr("x", 500)
 			      .attr("y", 40)
                               .style("font-size", "16px")
+                              .attr("text-anchor","start")
+
+			      csvg.append("text")
+			      .text("["+d.y2011_num_orgs+" Organisations, "+d.y2011_num_people+" Researchers, "+d.y2011_num_docs+" Publications]")
+			      .attr("x", 500)
+			      .attr("y", 70)
+                              .style("font-size", "12px")
                               .attr("text-anchor","start")			      
 			      })
 			      .on("mouseout",function(){
@@ -443,6 +508,13 @@ contributed, the size of a topic circle represents how many publications assigne
 			      .attr("y", 40)
                               .style("font-size", "16px")
                               .attr("text-anchor","start")
+
+			      csvg.append("text")
+			      .text("["+d.y2012_num_orgs+" Organisations, "+d.y2012_num_people+" Researchers, "+d.y2012_num_docs+" Publications]")
+			      .attr("x", 500)
+			      .attr("y", 70)
+                              .style("font-size", "12px")
+                              .attr("text-anchor","start")
 			      })
 			      .on("mouseout",function(){
 			      //d3.select("#tooltip").style("visibility", "hidden")
@@ -469,7 +541,14 @@ contributed, the size of a topic circle represents how many publications assigne
 			      .attr("x", 500)
 			      .attr("y", 40)
                               .style("font-size", "16px")
-                              .attr("text-anchor","start")			      
+                              .attr("text-anchor","start")	
+
+			      csvg.append("text")
+			      .text("["+d.y2013_num_orgs+" Organisations, "+d.y2013_num_people+" Researchers, "+d.y2013_num_docs+" Publications]")
+			      .attr("x", 500)
+			      .attr("y", 70)
+                              .style("font-size", "12px")
+                              .attr("text-anchor","start")		      
 			      })
 			      .on("mouseout",function(){
 			      //d3.select("#tooltip").style("visibility", "hidden")
@@ -491,7 +570,7 @@ contributed, the size of a topic circle represents how many publications assigne
 
 				
 <section>
-	<h3>Thanks!x</h3>
+	<h3>Thanks!</h3>
 </section>
 			</div>
 		</div>
