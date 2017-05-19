@@ -164,7 +164,7 @@
     //  Read the organization keys
     //*******************************************************************
     var org_descr = {};
-    d3.csv("/data/org_key.csv", function(data) {
+    d3.csv("data/org_key.csv", function(data) {
         for (var i = 0; i < data.length; i++) {
             org_descr[data[i].ORGANISATION_CODE] = data[i].FULL_NAME;
         }
