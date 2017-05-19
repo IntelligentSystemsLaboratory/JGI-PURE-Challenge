@@ -12,10 +12,6 @@
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="bower_components/reveal.js/lib/css/zenburn.css">
 
-		<!-- Multi-select -->
-		<link href="css/multi-select.css" media="screen" rel="stylesheet" type="text/css">
-		<link href="css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-		<!-- END Multi-select -->
 
 		<!-- Printing and PDF exports -->
 		<script>
@@ -92,7 +88,7 @@
 		<h2>What's in the data?</h2>
 		<p>
                   From 2008 to 2013 <br/>
-                  34123 Publications: 14192 without Abstract, 1987 using duplicate titles. <br/>
+                  34123 Publications: 14192 without Abstract,4459 without authors, and 1987 using duplicate titles. <br/>
                   3263 Researchers from 448 Organisations of University of Bristol. <br/>
                   
 		</p>
@@ -110,6 +106,8 @@
 	    </section>
 		    
 	    <section>
+		<h4>Coorperation Chord Diagram</h4>
+
               <div id="slide2"></div>
 	      <script>
 
@@ -177,7 +175,7 @@
 		.attr("height", h)
 		.append("svg:g")
 		.attr("id", "circle")
-		.attr("transform", "translate(" + w / 2 + "," + h / 2 + ")");
+		.attr("transform", "translate(" + w / 2 + "," + (h / 2 - 60) + ")");
 		svg.append("circle")
 		.attr("r", r0 + 20);
 		var rdr = chordRdr(matrix, mmap);
@@ -275,6 +273,7 @@ contributed, the size of a topic circle represents how many publications assigne
 </section>
 
 	    <section>
+			<h3>Discovered Topics</h3>
 			    <!--div id="slide3"></div-->
 			    <svg class="chart"><\svg>
 			    <script>
