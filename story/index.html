@@ -103,33 +103,34 @@
 </section>
 
 <section><h2>What's in the data?</h2>
-    <p style="font-size:90%;">
+    <p style="font-size:90%;text-align: left;">
     From 2008 to 2013 <br/>
     34123 Publications: 14192 without Abstract,4459 without authors, and
     1987 using duplicate titles. 3263 Researchers from 448 nested
     Organisations.<br/>
+	<br/>
     The organisation hierarchy of University of Bristol has 7 levels with
-    'UNIV' in level 0, and the only level 7 organisation is
-    "Transplantation Sciences (URC)" <br/>
+    'UNIV' in level 0, and the only level 7 organisation is 'TSRC' (Transplantation Sciences (URC)). <br/>
     </p>
 </section>
 
-<section><h2>Before we start analyzing</h2>
-    <p style="font-size:90%;">
+<section><h3>Before we start analyzing</h3>
+    <p style="font-size:90%;text-align: left;">
     We filtered out publications without authors or having duplicate titles.<br/>
 
     We also choose Level 3 organisations to represent the organisation of a
     researcher because we want to compare organisations in the same level and
     too many of them will be difficult to display their relations clearly in
-    one graph. There are 133 level 3 organisations, but only 68 of them have
+    one graph. <br/>
+	There are 133 level 3 organisations, but only 68 of them have
     submitted papers in PURE system. <br/>
     </p>
 </section>
 
 <section><h3>Who are likely cooperating with others?</h3>
-    <p>
+    <p style="font-size:90%;text-align: left;">
     <br/>
-    <br/>
+    We are interested in cooperations between different organisations in this university.
     The following chord diagram shows the number of publications coauthored
     between different organisations and the proportion to the total number of
     publications from each organisation.
@@ -287,11 +288,12 @@
 </section>
 
 <section><h4>How to rank organisations by coorperation potentials?</h4>
-<p style="font-size:70%;">
+<p style="font-size:70%; text-align: left;">
 We show the coorperation relations between organisations in the chord diagram, but how can we rate their contributions to the coorperation atmosphere? 
 How to evaluate the tendency of organisations working with others? <br/>
+<br/>
 The absolute number of publications coauthored with other organisations is one simplest way, 
-the other is the ratio of coauthored publications to solely worked inside the organisation.<br/> 
+the other is the ratio of coauthored publications to those solely worked inside the organisation.<br/> 
 <br/>
 These 2 criteria give us very different rankings, as we show the results in the next slides. The rank 1 organisation is 'SOCS' (School of Clinical Sciences) and 'VICH' (Senior Team) respectively. (The full name of 'VICH' is very mysterious...)<br/>
 </p>   
@@ -302,7 +304,7 @@ These 2 criteria give us very different rankings, as we show the results in the 
 </section>
 
 <section><h3>What's the popular research topic?</h3>
-    <p style="font-size:80%;">
+    <p style="font-size:80%;text-align: left;">
     We use Latent Dirichlet Allocation Topic Models to cluster publications of
     each year by their titles and abstracts . <br/> <br/>
     The discovered topics are visualised in the next slide, the X coordinate
