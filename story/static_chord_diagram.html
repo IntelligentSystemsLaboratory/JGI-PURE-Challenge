@@ -9,7 +9,10 @@
      END Multi-select -->
     <style>
       body {
-        background: white;
+        background: lightgrey;
+        font-color: black;
+        font-family: verdana;
+        text-align: center;
       }
       #tooltip {
         color: white;
@@ -46,6 +49,11 @@
     <script src="lib/d3.js"></script>
     <script src="lib/underscore.js"></script>
     <script src="js/mapper.js"></script>
+
+<div align="center">
+    <h1>Collaborations in UoB during 2008-2013</h1>
+    <div id='chord'></div>
+</div>
 
   <script>
     function findGetParameter(parameterName) {
@@ -201,8 +209,6 @@
     }
 
 </script>
-
-<section id='chord'></section>
 
 </body>
 </html>

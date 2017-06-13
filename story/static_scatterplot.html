@@ -1,0 +1,303 @@
+<!doctype html>
+<html>
+<head>
+   <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Multi-select 
+    <link href="css/multi-select.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+     END Multi-select -->
+    <style>
+      body {
+        background: lightgrey;
+        font-color: black;
+        font-family: verdana;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id=tooltip"></div>
+    <script src="lib/d3.js"></script>
+    <script src="lib/underscore.js"></script>
+    <script src="js/mapper.js"></script>
+
+
+    <div align="center">
+        <h1>Discovered Topics</h1>
+        <svg class="chart"><\svg>
+    </div>
+
+    <script>
+      var wd = 1280;
+      var ht = 600;
+
+      var margin = {top: 40, right: 20, bottom: 30, left: 40},
+      wd = 1280 - margin.left - margin.right,
+      ht = 600 - margin.top - margin.bottom;
+
+      var x = d3.scale.linear()
+          .range([0, 950]);
+
+      var formatPercent = d3.format("d");
+
+      var xAxis = d3.svg.axis()
+      .scale(x)
+      .orient("bottom")
+      .tickFormat(formatPercent);
+
+      var csvg = d3.select("svg")
+          .attr("width", wd + margin.left + margin.right)
+          .attr("height",ht + margin.top + margin.bottom)
+          .append("g")
+          .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+      d3.csv("data/topics.csv", function(d) {
+          x.domain([0, d3.max(d, function(d) {return +d.y2011_num_people; })]);
+          /*
+          csvg.append("g")
+              .attr("class", "x axis")
+              .attr("transform", "translate(0," + ht + ")")
+              .call(xAxis)
+              .append("text")
+              .attr("x", 950)
+              .attr("dy", ".21em")
+              .style("text-anchor", "end")
+              .text("Number of researchers");
+            */
+
+          csvg.append("circle")
+              .attr("cx",+d.y2008_num_people)
+              .attr("cy",(+d.y2008_num_orgs*10-ht)*-1)
+              .attr("r",Math.sqrt(+d.y2008_num_docs))
+              .style("fill","pink")
+              .attr('fill-opacity', 0.8)
+              .on("mouseover", function() {
+                  csvg.append("text")
+                  .text("2008 Rank "+d.rank+" Topic-- 10 Top Words: "+d.y2008_words)
+                  .attr("x", wd/2)
+                  .attr("y", 10)
+                  .attr("text-anchor","middle")
+                  .style("font-size", "16px")
+                  .attr("class", "tooltip")
+
+                  csvg.append("text")
+                  .text("-- 5 Top Organisations: "+d.y2008_orgs)
+                  .attr("x", wd/2)
+                  .attr("y", 40)
+                  .style("font-size", "16px")
+                  .attr("text-anchor","middle")
+                  .attr("class", "tooltip")
+
+                  csvg.append("text")
+                  .text("["+d.y2008_num_orgs+" Organisations, "+d.y2008_num_people+" Researchers, "+d.y2008_num_docs+" Publications]")
+                  .attr("x", wd/2)
+                  .attr("y", 70)
+                  .style("font-size", "12px")
+                  .attr("text-anchor","middle")
+                  .attr("class", "tooltip")
+              })
+              .on("mouseout",function(){
+                  csvg.selectAll("text.tooltip").remove()
+              });
+
+          csvg.append("circle")
+          .attr("cx",+d.y2009_num_people)
+          .attr("cy",(+d.y2009_num_orgs*10-ht)*-1)
+          .attr("r",Math.sqrt(+d.y2009_num_docs))
+          .style("fill","DarkGray")
+          .attr('fill-opacity', 0.8)
+
+          .on("mouseover", function() {
+              csvg.append("text")
+              .text("2009 Rank "+d.rank+" Topic-- 10 Top Words: "+d.y2009_words)
+              .attr("x", wd/2)
+              .attr("y", 10)
+              .attr("text-anchor","middle")
+              .style("font-size", "16px")
+              .attr("class", "tooltip")
+
+              csvg.append("text")
+              .text("-- 5 Top Organisations: "+d.y2009_orgs)
+              .attr("x", wd/2)
+              .attr("y", 40)
+              .style("font-size", "16px")
+              .attr("text-anchor","middle")
+              .attr("class", "tooltip")
+
+              csvg.append("text")
+              .text("["+d.y2009_num_orgs+" Organisations, "+d.y2009_num_people+" Researchers, "+d.y2009_num_docs+" Publications]")
+              .attr("x", wd/2)
+              .attr("y", 70)
+              .style("font-size", "12px")
+              .attr("text-anchor","middle")
+              .attr("class", "tooltip")
+          })
+          .on("mouseout",function(){
+              csvg.selectAll("text.tooltip").remove()
+          });
+
+
+          csvg.append("circle")
+          .attr("cx",+d.y2010_num_people)
+          .attr("cy",(+d.y2010_num_orgs*10-ht)*-1)
+          .attr("r",Math.sqrt(+d.y2010_num_docs))
+          .style("fill","OrangeRed")
+          .attr('fill-opacity', 0.8)
+          .on("mouseover", function() {
+              csvg.append("text")
+              .text("2010 Rank "+d.rank+" Topic-- 10 Top Words: "+d.y2010_words)
+              .attr("x", wd/2)
+              .attr("y", 10)
+              .attr("text-anchor","middle")
+              .style("font-size", "16px")
+              .attr("class", "tooltip")
+
+              csvg.append("text")
+              .text("-- 5 Top Organisations: "+d.y2010_orgs)
+              .attr("x", wd/2)
+              .attr("y", 40)
+              .style("font-size", "16px")
+              .attr("text-anchor","middle")
+              .attr("class", "tooltip")
+
+              csvg.append("text")
+              .text("["+d.y2010_num_orgs+" Organisations, "+d.y2010_num_people+" Researchers, "+d.y2010_num_docs+" Publications]")
+              .attr("x", wd/2)
+              .attr("y", 70)
+              .style("font-size", "12px")
+              .attr("text-anchor","middle")
+              .attr("class", "tooltip")
+          })
+          .on("mouseout",function(){
+              csvg.selectAll("text.tooltip").remove()
+          });
+
+
+          csvg.append("circle")
+          .attr("cx",+d.y2011_num_people)
+          .attr("cy",(+d.y2011_num_orgs*10-ht)*-1)
+          .attr("r",Math.sqrt(+d.y2011_num_docs))
+          .style("fill","Violet")
+          .attr('fill-opacity', 0.8)
+          .on("mouseover", function() {
+              csvg.append("text")
+              .text("2011 Rank "+d.rank+" Topic-- 10 Top Words: "+d.y2011_words)
+              .attr("x", wd/2)
+              .attr("y", 10)
+              .attr("text-anchor","middle")
+              .style("font-size", "16px")
+              .attr("class", "tooltip")
+
+              csvg.append("text")
+              .text("-- 5 Top Organisations: "+d.y2011_orgs)
+              .attr("x", wd/2)
+              .attr("y", 40)
+              .style("font-size", "16px")
+              .attr("text-anchor","middle")
+              .attr("class", "tooltip")
+
+              csvg.append("text")
+              .text("["+d.y2011_num_orgs+" Organisations, "+d.y2011_num_people+" Researchers, "+d.y2011_num_docs+" Publications]")
+              .attr("x", wd/2)
+              .attr("y", 70)
+              .style("font-size", "12px")
+              .attr("text-anchor","middle")
+              .attr("class", "tooltip")
+          })
+          .on("mouseout",function(){
+              csvg.selectAll("text.tooltip").remove()
+          });
+
+          csvg.append("circle")
+          .attr("cx",+d.y2012_num_people)
+          .attr("cy",(+d.y2012_num_orgs*10-ht)*-1)
+          .attr("r",Math.sqrt(+d.y2012_num_docs))
+          .style("fill","white")
+          .attr('fill-opacity', 0.8)
+          .on("mouseover", function() {
+              csvg.append("text")
+              .text("2012 Rank "+d.rank+" Topic-- 10 Top Words: "+d.y2012_words)
+              .attr("x", wd/2)
+              .attr("y", 10)
+              .attr("text-anchor","middle")
+              .style("font-size", "16px")
+              .attr("class", "tooltip")
+
+              csvg.append("text")
+              .text("-- 5 Top Organisations: "+d.y2012_orgs)
+              .attr("x", wd/2)
+              .attr("y", 40)
+              .style("font-size", "16px")
+              .attr("text-anchor","middle")
+              .attr("class", "tooltip")
+
+              csvg.append("text")
+              .text("["+d.y2012_num_orgs+" Organisations, "+d.y2012_num_people+" Researchers, "+d.y2012_num_docs+" Publications]")
+              .attr("x", wd/2)
+              .attr("y", 70)
+              .style("font-size", "12px")
+              .attr("text-anchor","middle")
+              .attr("class", "tooltip")
+              })
+          .on("mouseout",function(){
+              csvg.selectAll("text.tooltip").remove()
+          });
+
+          csvg.append("circle")
+          .attr("cx",+d.y2013_num_people)
+          .attr("cy",(+d.y2013_num_orgs*10-ht)*-1)
+          .attr("r",Math.sqrt(+d.y2013_num_docs))
+          .style("fill","Coral")
+          .attr('fill-opacity', 0.8)
+          .on("mouseover", function() {
+              csvg.append("text")
+              .text("2013 Rank "+d.rank+" Topic-- 10 Top Words: "+d.y2013_words)
+              .attr("x", wd/2)
+              .attr("y", 10)
+              .attr("text-anchor","middle")
+              .style("font-size", "16px")
+              .attr("class", "tooltip")
+
+              csvg.append("text")
+              .text("-- 5 Top Organisations: "+d.y2013_orgs)
+              .attr("x", wd/2)
+              .attr("y", 40)
+              .style("font-size", "16px")
+              .attr("text-anchor","middle")
+              .attr("class", "tooltip")
+
+              csvg.append("text")
+              .text("["+d.y2013_num_orgs+" Organisations, "+d.y2013_num_people+" Researchers, "+d.y2013_num_docs+" Publications]")
+              .attr("x", wd/2)
+              .attr("y", 70)
+              .style("font-size", "12px")
+              .attr("text-anchor","middle")
+              .attr("class", "tooltip")
+          })
+          .on("mouseout",function(){
+              csvg.selectAll("text.tooltip").remove()
+          });
+
+          },
+          function(error, rows) {
+          console.log(rows);
+          });
+
+    // now add titles to the axes
+    csvg.append("text")
+        .attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
+        .attr("transform", "translate("+ (0) +","+(ht/2)+")rotate(-90)")  // text is drawn off the screen top left, move down and out and rotate
+        .text("Number of organizations");
+
+    csvg.append("text")
+        .attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
+        .attr("transform", "translate("+ (wd/2) +","+(ht-(margin.right/3))+")")  // centre below axis
+        .text("Number of researchers");
+
+    </script>
+
+<div id='chord', align="center"></div>
+
+</body>
+</html>
