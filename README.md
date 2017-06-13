@@ -31,10 +31,17 @@ The same argument accepts a list of years separated by comma (e.g. for years
 [2]: https://intelligentsystemslaboratory.github.io/JGI-PURE-Challenge/story/static_chord_diagram.html?years=2008
 [3]: https://intelligentsystemslaboratory.github.io/JGI-PURE-Challenge/story/static_chord_diagram.html?years=2012,2013
 
-We also trained a topic model with the abstracts and titles from the
-publications and identified which clusters of researchers and organizations
-have worked within each of the discovered topics each year. A visualization of
-a scatterplot can be found in [story/static_scatterplot.html][4]
+## Topic Models
+
+We use Latent Dirichlet Allocation Topic Models to cluster publications of each
+year by their titles and abstracts .
+
+The discovered topics are visualised in [story/static_scatterplot.html][4],
+where the X coordinate represents how many researchers contributed to the
+topic, the Y coordinate represents how many organisations contributed, the size
+of a topic circle represents how many publications assigned to it. We also show
+top words and top organisations of a topic.
+
 
 [4]: https://intelligentsystemslaboratory.github.io/JGI-PURE-Challenge/story/static_scatterplot.html
 
