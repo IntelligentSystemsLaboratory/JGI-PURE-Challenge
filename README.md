@@ -28,11 +28,18 @@ The same argument accepts a list of years separated by comma (e.g. for years
 2012 and 2013 follow the link [story/static_chord_diagram.html?years=2012,2013][3]).
 
 [1]: https://intelligentsystemslaboratory.github.io/JGI-PURE-Challenge/story/static_chord_diagram.html
-[2]: https://intelligentsystemslaboratory.github.io/JGI-PURE-Challenge/story/static_chord_diagram.html=2008
+[2]: https://intelligentsystemslaboratory.github.io/JGI-PURE-Challenge/story/static_chord_diagram.html?years=2008
 [3]: https://intelligentsystemslaboratory.github.io/JGI-PURE-Challenge/story/static_chord_diagram.html?years=2012,2013
+
+We also trained a topic model with the abstracts and titles from the
+publications and identified which clusters of researchers and organizations
+have worked within each of the discovered topics each year. A visualization of
+a scatterplot can be found in [story/static_scatterplot.html][4]
+
+[4]: https://intelligentsystemslaboratory.github.io/JGI-PURE-Challenge/story/static_scatterplot.html
 
 ## PURE Challenge slides
 
-You can find the slides for a presentation on this link [intelligentsystemslaboratory.github.io/JGI-PURE-Challenge/story][4]
+You can find the slides for a presentation on this link [intelligentsystemslaboratory.github.io/JGI-PURE-Challenge/story][5]
 
-[4]: https://intelligentsystemslaboratory.github.io/JGI-PURE-Challenge/story/
+[5]: https://intelligentsystemslaboratory.github.io/JGI-PURE-Challenge/story/
