@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="19cm" height="6cm" viewBox="-20 -2 368 109" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <ellipse style="fill: #ffffff" cx="24.7136" cy="24.7136" rx="24.7136" ry="24.7136"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="24.7136" cy="24.7136" rx="24.7136" ry="24.7136"/>
+    <text font-size="7.90222" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="24.7136" y="27.1247">
+      <tspan x="24.7136" y="27.1247">Org_1</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="224.714" cy="24.7136" rx="24.7136" ry="24.7136"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="224.714" cy="24.7136" rx="24.7136" ry="24.7136"/>
+    <text font-size="7.90222" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="224.714" y="27.1247">
+      <tspan x="224.714" y="27.1247">Org_2</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 6; stroke: #ffffff" x1="50.4216" y1="24.7136" x2="199.006" y2="24.7136"/>
+  <text font-size="11.2889" style="fill: #ffffff;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="120" y="20">
+    <tspan x="120" y="20">10</tspan>
+  </text>
+  <g>
+    <ellipse style="fill: #ffffff" cx="123.433" cy="83.4328" rx="23.4328" ry="23.4328"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="123.433" cy="83.4328" rx="23.4328" ry="23.4328"/>
+    <text font-size="7.90222" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="123.433" y="85.8439">
+      <tspan x="123.433" y="85.8439">Org_3</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 6; stroke: #ffffff" x1="46.8025" y1="37.8523" x2="102.434" y2="70.9428"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 6; stroke: #ffffff" x1="202.509" y1="37.5871" x2="144.562" y2="71.1829"/>
+  <g>
+    <ellipse style="fill: #ffffff" cx="323.433" cy="83.4328" rx="23.4328" ry="23.4328"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="323.433" cy="83.4328" rx="23.4328" ry="23.4328"/>
+    <text font-size="7.90222" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="323.433" y="85.8439">
+      <tspan x="323.433" y="85.8439">Org_4</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 6; stroke: #ffffff" x1="246.803" y1="37.8523" x2="302.434" y2="70.9428"/>
+  <text font-size="11.2889" style="fill: #ffffff;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="80" y="50">
+    <tspan x="80" y="50">3</tspan>
+  </text>
+  <text font-size="11.2889" style="fill: #ffffff;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="170" y="70">
+    <tspan x="170" y="70">5</tspan>
+  </text>
+  <text font-size="11.2889" style="fill: #ffffff;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="280" y="50">
+    <tspan x="280" y="50">9</tspan>
+  </text>
+  <path style="fill: none; fill-opacity:0; stroke-width: 6; stroke: #ffffff" d="M 1.11022e-15,24.7136 A 25.4447,25.4447 0 1 0 34.1711,47.546"/>
+  <text font-size="11.2889" style="fill: #ffffff;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-20" y="80">
+    <tspan x="-20" y="80">6</tspan>
+  </text>
+</svg>
