@@ -82,7 +82,7 @@
 	  <div id="tooltip"></div>
 	<div class="reveal">
 	  <div class="slides">
-		    
+
 	    <section id="title"><h1>JGI PURE Challenge</h1>
 		      <p><a href="http://intelligentsystems.bristol.ac.uk/" target="_blank">Intelligent Systems Laboratory</a></p>
             </section>
@@ -94,7 +94,7 @@
                   From 2008 to 2013 <br/>
                   34123 Publications: 14192 without Abstract, 1987 using duplicate titles. <br/>
                   3263 Researchers from 448 Organisations of University of Bristol. <br/>
-                  
+
 		</p>
          </section>
 
@@ -105,10 +105,11 @@
                   We choose Level 3 or above organisations for visualisation, as the "UNIV" is the Level 0 organisation. <br/>
                   <br/>
                   The following chord diagram shows the number of publications coauthored between different organisations and the proportion to the total number of publications from each organisation.
-                  
+
 		</p>
+        <img src="/img/common_publications.svg"  height="100" width="200">
 	    </section>
-		    
+
 	    <section>
               <div id="slide2"></div>
 	      <script>
@@ -129,7 +130,7 @@
 		var getYears = findGetParameter('years');
 		if (getYears != null) {
 		yearsArray = getYears.split(',');}
-					    
+
 
 
 		//*******************************************************************
@@ -234,7 +235,7 @@
 		+ p(d.svalue/d.mtotal) + " of Matrix Total (" + q(d.mtotal) + ")<br/>";
 		}
 
-		
+
 		function groupTip (d) {
 		var p = d3.format(".1%"), q = d3.format(",d")
 		return "Group Info:<br/>"
@@ -268,8 +269,8 @@
 The discovered topics are visualised in the next slide, the X coordinate represents how many researchers contributed to the topic, the Y coordinate represents how many organisations
 contributed, the size of a topic circle represents how many publications assigned to it. We also show top words and top organisations of a topic.<br/>
                   <br/>
-                 
-                  
+
+
 		</p>
 
 </section>
@@ -288,12 +289,12 @@ contributed, the size of a topic circle represents how many publications assigne
 			      .range([0, 950]);
 
 			      var formatPercent = d3.format("d");
-			      
+
 			      var xAxis = d3.svg.axis()
 			      .scale(x)
 			      .orient("bottom")
 			      .tickFormat(formatPercent);
-			      
+
 			      var csvg = d3.select("svg")
 			      .attr("width", wd + margin.left + margin.right)
 			      .attr("height",ht + margin.top + margin.bottom)
@@ -326,14 +327,14 @@ contributed, the size of a topic circle represents how many publications assigne
 			      .attr("x", 500)
                               .attr("y", 10)
                               .attr("text-anchor","start")
-			      .style("font-size", "16px")			      
-			      
+			      .style("font-size", "16px")
+
 			      csvg.append("text")
 			      .text("-- 5 Top Organisations: "+d.y2008_orgs)
 			      .attr("x", 500)
 			      .attr("y", 40)
                               .style("font-size", "16px")
-                              .attr("text-anchor","start")			      
+                              .attr("text-anchor","start")
 			      })
 			      .on("mouseout",function(){
 			      //d3.select("#tooltip").style("visibility", "hidden")
@@ -353,22 +354,22 @@ contributed, the size of a topic circle represents how many publications assigne
 			      .attr("x", 500)
                               .attr("y", 10)
                               .attr("text-anchor","start")
-			      .style("font-size", "16px")			      
-			      
+			      .style("font-size", "16px")
+
 			      csvg.append("text")
 			      .text("-- 5 Top Organisations: "+d.y2009_orgs)
 			      .attr("x", 500)
 			      .attr("y", 40)
                               .style("font-size", "16px")
-                              .attr("text-anchor","start")			      
+                              .attr("text-anchor","start")
 			      })
 			      .on("mouseout",function(){
 			      //d3.select("#tooltip").style("visibility", "hidden")
 			      csvg.selectAll("text")
 			      .attr("visibility", "hidden")
 			      });
-			      
-			      
+
+
 			      csvg.append("circle")
 			      .attr("cx",+d.y2010_num_people)
 			      .attr("cy",(+d.y2010_num_orgs*10-ht)*-1)
@@ -381,22 +382,22 @@ contributed, the size of a topic circle represents how many publications assigne
 			      .attr("x", 500)
                               .attr("y", 10)
                               .attr("text-anchor","start")
-			      .style("font-size", "16px")			      
-			      
+			      .style("font-size", "16px")
+
 			      csvg.append("text")
 			      .text("-- 5 Top Organisations: "+d.y2010_orgs)
 			      .attr("x", 500)
 			      .attr("y", 40)
                               .style("font-size", "16px")
-                              .attr("text-anchor","start")			      
+                              .attr("text-anchor","start")
 			      })
 			      .on("mouseout",function(){
 			      //d3.select("#tooltip").style("visibility", "hidden")
 			      csvg.selectAll("text")
 			      .attr("visibility", "hidden")
 			      });
-	
-			      
+
+
 			      csvg.append("circle")
 			      .attr("cx",+d.y2011_num_people)
 			      .attr("cy",(+d.y2011_num_orgs*10-ht)*-1)
@@ -409,14 +410,14 @@ contributed, the size of a topic circle represents how many publications assigne
 			      .attr("x", 500)
                               .attr("y", 10)
                               .attr("text-anchor","start")
-			      .style("font-size", "16px")			      
-			      
+			      .style("font-size", "16px")
+
 			      csvg.append("text")
 			      .text("-- 5 Top Organisations: "+d.y2011_orgs)
 			      .attr("x", 500)
 			      .attr("y", 40)
                               .style("font-size", "16px")
-                              .attr("text-anchor","start")			      
+                              .attr("text-anchor","start")
 			      })
 			      .on("mouseout",function(){
 			      //d3.select("#tooltip").style("visibility", "hidden")
@@ -436,8 +437,8 @@ contributed, the size of a topic circle represents how many publications assigne
 			      .attr("x", 500)
                               .attr("y", 10)
                               .attr("text-anchor","start")
-			      .style("font-size", "16px")			      
-			      
+			      .style("font-size", "16px")
+
 			      csvg.append("text")
 			      .text("-- 5 Top Organisations: "+d.y2012_orgs)
 			      .attr("x", 500)
@@ -463,34 +464,34 @@ contributed, the size of a topic circle represents how many publications assigne
 			      .attr("x", 500)
                               .attr("y", 10)
                               .attr("text-anchor","start")
-			      .style("font-size", "16px")			      
-			      
+			      .style("font-size", "16px")
+
 			      csvg.append("text")
 			      .text("-- 5 Top Organisations: "+d.y2013_orgs)
 			      .attr("x", 500)
 			      .attr("y", 40)
                               .style("font-size", "16px")
-                              .attr("text-anchor","start")			      
+                              .attr("text-anchor","start")
 			      })
 			      .on("mouseout",function(){
 			      //d3.select("#tooltip").style("visibility", "hidden")
 			      csvg.selectAll("text")
 			      .attr("visibility", "hidden")
 			      });
-			     
-			     
+
+
 			      },
 			      function(error, rows) {
 			      console.log(rows);
 			      });
 
 
-				    
+
 			    </script>
-				
+
 		</section>
 
-				
+
 <section>
 	<h3>Thanks!x</h3>
 </section>
