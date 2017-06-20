@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="22cm" height="8cm" viewBox="-61 -1 437 144" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="-60" y="0" width="110.563" height="50"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-60" y="0" width="110.563" height="50"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-48.9438" y1="0" x2="-48.9438" y2="50"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="39.5063" y1="0" x2="39.5063" y2="50"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-4.71875" y="29">
+      <tspan x="-4.71875" y="29">Publication 1</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="120" y="0" width="100" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="120" y="0" width="100" height="38"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="170" y="22.9">
+      <tspan x="170" y="22.9">Topic 1</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="120" y="90" width="100" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="120" y="90" width="100" height="38"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="170" y="112.9">
+      <tspan x="170" y="112.9">Topic T</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 6; stroke: #ffffff" x1="51.5551" y1="23.0675" x2="119.069" y2="20.749"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 6; stroke: #ffffff" x1="49.2837" y1="50.9629" x2="128.709" y2="89.1484"/>
+  <g>
+    <path style="fill: #ffffff" d="M 312.425 0 L 362.125,0 C 368.987,0 374.55,4.92486 374.55,11 C 374.55,17.0751 368.987,22 362.125,22 L 312.425,22 C 305.563,22 300,17.0751 300,11 C 300,4.92487 305.563,0 312.425,0z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 312.425 0 L 362.125,0 C 368.987,0 374.55,4.92486 374.55,11 C 374.55,17.0751 368.987,22 362.125,22 L 312.425,22 C 305.563,22 300,17.0751 300,11 C 300,4.92487 305.563,0 312.425,0"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="337.275" y="15">
+      <tspan x="337.275" y="15">word 1</tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: #ffffff" d="M 312.425 40 L 362.125,40 C 368.987,40 374.55,44.9249 374.55,51 C 374.55,57.0751 368.987,62 362.125,62 L 312.425,62 C 305.563,62 300,57.0751 300,51 C 300,44.9249 305.563,40 312.425,40z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 312.425 40 L 362.125,40 C 368.987,40 374.55,44.9249 374.55,51 C 374.55,57.0751 368.987,62 362.125,62 L 312.425,62 C 305.563,62 300,57.0751 300,51 C 300,44.9249 305.563,40 312.425,40"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="337.275" y="55">
+      <tspan x="337.275" y="55">word 2</tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: #ffffff" d="M 312.425 80 L 362.125,80 C 368.987,80 374.55,84.9249 374.55,91 C 374.55,97.0751 368.987,102 362.125,102 L 312.425,102 C 305.563,102 300,97.0751 300,91 C 300,84.9249 305.563,80 312.425,80z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 312.425 80 L 362.125,80 C 368.987,80 374.55,84.9249 374.55,91 C 374.55,97.0751 368.987,102 362.125,102 L 312.425,102 C 305.563,102 300,97.0751 300,91 C 300,84.9249 305.563,80 312.425,80"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="337.275" y="95">
+      <tspan x="337.275" y="95">word 3</tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: #ffffff" d="M 312.062 120 L 360.312,120 C 366.974,120 372.375,124.925 372.375,131 C 372.375,137.075 366.974,142 360.312,142 L 312.062,142 C 305.401,142 300,137.075 300,131 C 300,124.925 305.401,120 312.062,120z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 312.062 120 L 360.312,120 C 366.974,120 372.375,124.925 372.375,131 C 372.375,137.075 366.974,142 360.312,142 L 312.062,142 C 305.401,142 300,137.075 300,131 C 300,124.925 305.401,120 312.062,120"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="336.188" y="135">
+      <tspan x="336.188" y="135">word z</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #ffffff" x1="220" y1="19" x2="300" y2="11"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #ffffff" x1="220" y1="19" x2="300" y2="91"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #ffffff" x1="220" y1="109" x2="300" y2="51"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #ffffff" x1="220" y1="109" x2="300" y2="91"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #ffffff" x1="220" y1="109" x2="300" y2="131"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke-dasharray: 4; stroke: #ffffff" x1="336.949" y1="103.002" x2="336.514" y2="118.998"/>
+  <g>
+    <rect style="fill: #ffffff" x="-60" y="90" width="112.375" height="50"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-60" y="90" width="112.375" height="50"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-48.7625" y1="90" x2="-48.7625" y2="140"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="41.1375" y1="90" x2="41.1375" y2="140"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-3.8125" y="119">
+      <tspan x="-3.8125" y="119">Publication N</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 6; stroke-dasharray: 4; stroke: #ffffff" x1="-4.46033" y1="50.6641" x2="-4.07092" y2="89.3359"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 6; stroke-dasharray: 4; stroke: #ffffff" x1="170" y1="38.9861" x2="170" y2="90"/>
+</svg>

@@ -99,10 +99,32 @@
   <div class="slides">
 
 <section id="title"><h1>JGI PURE Challenge</h1>
-    <p><a href="http://intelligentsystems.bristol.ac.uk/" target="_blank">Intelligent Systems Laboratory</a></p>
+    <p style="font-size:30px">
+       <a href="http://www.bris.ac.uk/engineering/people/yu-chen/overview.html" target="_blank">Yu Chen</a>,
+       <a href="http://perellonieto.com" target="_blank">Miquel Perelló Nieto</a>, and
+       <a href="http://tomdiethe.com" target="_blank">Tom Diethe</a>
+    </p>
+    <p style="font-size:40px"><a href="http://intelligentsystems.bristol.ac.uk/" target="_blank">Intelligent Systems Laboratory</a></p>
 </section>
 
 <section><h2>What's in the data?</h2>
+    <section>
+    <ul>
+        <li>34,123 publications</li>
+        <ul>
+            <li>2008 to 2013</li>
+            <li>>14,000 no abstract</li>
+            <li>>4,000 no authors</li>
+            <li>~2,000 duplicated titles</li>
+        </ul>
+        <li>~3,000 Researchers</li>
+        <li>~450 Organizations</li>
+        <ul>
+            <li>UoB with 7 levels of hierarchy</li>
+        </ul>
+    </ul>
+    </section>
+    <section>
     <p style="font-size:90%;text-align: left;">
     From 2008 to 2013 <br/>
     34,123 Publications: 14,192 without Abstract,4,459 without authors, and
@@ -112,9 +134,21 @@
     The organisation hierarchy of University of Bristol has 7 levels with
     'UNIV' in level 0, and the only level 7 organisation is 'TSRC' (Transplantation Sciences (URC)). <br/>
     </p>
+    </section>
 </section>
 
 <section><h3>Before we start analyzing</h3>
+    <section>
+    <ul>
+        <li>Removed without authors</li>
+        <li>Removed duplicates</li>
+        <li>Organizations at 3rd hierarchical level</li>
+        <ul>
+            <li>In the PURE system 68 out of 133
+        </ul>
+    </ul>
+    </section>
+    <section>
     <p style="font-size:90%;text-align: left;">
     We filtered out publications without authors and removed duplicates.
     <br/>
@@ -126,10 +160,11 @@
     submitted papers in the PURE system.
     <br/>
     </p>
+    </section>
 </section>
 
 <section><h3>Who are likely cooperating with others?</h3>
-    <p style="font-size:90%;text-align: left;">
+    <section>
     <ul>
         <li>Undirected graph</li>
         <ul>
@@ -140,6 +175,17 @@
     </ul>
     <img src="img/common_publications.svg">
     </p>
+    </section>
+    <section>
+    <p style="font-size:90%;text-align: left;">
+    <br/>
+    We are interested in identifying the organizations that cooperate more with
+    the rest.
+    <br/>
+    The following chord diagram shows the number of publications coauthored
+    between different organisations and the publications with no cooperation.
+    </p>
+    </section>
 </section>
 
 <section><h4>Cooperation Chord Diagram</h4>
@@ -301,23 +347,69 @@
 </script>
 </section>
 
-<section><h4>How to rank organisations by cooperation contributions?</h4>
+<section><h4>How to rank organisations by cooperation?</h4>
+    <section>
+        <ul>
+        <li>We propose two simple methods</li>
+        <ul>
+            <li>Absolute number of coauthored publications</li>
+            <ul><li>Org_1 = <span style="color:lightgreen">10 + 3</span></li></ul>
+            <li>Ration of coauthored / no-coauthored</li>
+            <ul><li>Org_1 = <span style="color:lightgreen">(10 + 3)</span> /
+                    <span style="color:pink">6</span></li></ul>
+        </ul>
+        <img src="img/cooperation_ranking.svg">
+        <li>Different rankings</li>
+        </ul>
+    </section>
+    <section>
 <p style="font-size:70%; text-align: left;">
-We show the cooperation relations between organisations in the chord diagram, but how can we rate their contributions to the cooperation atmosphere?
-How to evaluate the tendency of organisations working with others? <br/>
+We show the cooperation relations between organisations in the chord diagram,
+but how can we rate their contributions to the cooperation atmosphere?  How to
+evaluate the tendency of organisations working with others?
+<br/>
 <br/>
 The absolute number of publications coauthored with other organisations is one simplest way,
 another is the ratio of coauthored publications to those solely worked inside the organisation.<br/>
 <br/>
-These 2 criteria give us very different rankings, as we show the results in the next slides. The rank 1 organisation is 'SOCS' (School of Clinical Sciences) and 'VICH' (Senior Team) respectively. (The full name of 'VICH' is very mysterious...)<br/>
+These 2 criteria give us very different rankings, as we show the results in the
+next slides. The rank 1 organisation is 'SOCS' (School of Clinical Sciences)
+and 'VICH' (Senior Team) respectively. (The full name of 'VICH' is very
+mysterious...)<br/>
 </p>
+    </section>
 </section>
 
-<section><h4>How to rank organisations by cooperation contributions?</h4>
-<img src="data/corank.png"  height="550" width="1400">
+<section><h4>How to rank organisations by cooperation?</h4>
+<img src="data/corank.png"  height="550" width="100%">
+</section>
+
+<section><h4>How to rank organisations by cooperation?</h4>
+    <ul>
+        <li>Absolute number of coauthored publications</li>
+        <ul>
+            <li><span style="color: #CFB53B">1st:</span> School of Clinical Sciences (SOCS)</li>
+            <li><span style="color: #C0C0C0">2nd:</span> School of Social and Community Medicine (SSCM)</li>
+            <li><span style="color: #CD7F32">3rd:</span> Merchant Venturers' School of Engineering (MVEN)</li>
+        </ul>
+        <li>Ratio of coauthored / no-coauthored</li>
+        <ul>
+            <li><span style="color: #CFB53B">1st:</span> Senior Team (VICH)</li>
+            <li><span style="color: #C0C0C0">2nd:</span> Strategic Programmes and Projects (IPSS)</li>
+            <li><span style="color: #CD7F32">3rd:</span> National Composites Centre (NCCC)</li>
+        </ul>
+    </ul>
 </section>
 
 <section><h3>What's the popular research topic?</h3>
+    <section>
+        <ul>
+            <li>Clustering: titles and abstracts</li>
+            <li>Latent Dirichlet Allocation Topic Models</li>
+            <img src="img/topic_modeling.svg">
+        </ul>
+    </section>
+    <section>
     <p style="font-size:80%;text-align: left;">
     We use Latent Dirichlet Allocation Topic Models to cluster publications of
     each year by their titles and abstracts . <br/> <br/>
@@ -327,11 +419,14 @@ These 2 criteria give us very different rankings, as we show the results in the 
     represents how many publications assigned to it. We also show top words and
     top organisations of a topic.<br/><br/>
     </p>
+    </section>
 </section>
 
 <section> <h4>Discovered Topics</h4>
+<section>
     <!--div id="slide3"></div-->
-    <svg class="chart"><\svg>
+    <img src="img/year_colors.svg" style="bottom:0;width:500px;height:100px;position:absolute;">
+    <svg class="chart" style="float:left"><\svg>
     <script>
       var wd = 1280;
       var ht = 600;
@@ -373,7 +468,7 @@ These 2 criteria give us very different rankings, as we show the results in the 
       .attr("cx",+d.y2008_num_people)
       .attr("cy",(+d.y2008_num_orgs*10-ht)*-1)
       .attr("r",Math.sqrt(+d.y2008_num_docs))
-      .style("fill","pink")
+      .style("fill","white")
       .attr('fill-opacity', 0.8)
       .on("mouseover", function() {
           csvg.append("text")
@@ -406,7 +501,7 @@ These 2 criteria give us very different rankings, as we show the results in the 
       .attr("cx",+d.y2009_num_people)
       .attr("cy",(+d.y2009_num_orgs*10-ht)*-1)
       .attr("r",Math.sqrt(+d.y2009_num_docs))
-      .style("fill","DarkGray")
+      .style("fill","yellow")
       .attr('fill-opacity', 0.8)
       .on("mouseover", function() {
       csvg.append("text")
@@ -442,7 +537,7 @@ These 2 criteria give us very different rankings, as we show the results in the 
       .attr("cx",+d.y2010_num_people)
       .attr("cy",(+d.y2010_num_orgs*10-ht)*-1)
       .attr("r",Math.sqrt(+d.y2010_num_docs))
-      .style("fill","OrangeRed")
+      .style("fill","Orange")
       .attr('fill-opacity', 0.8)
       .on("mouseover", function() {
       csvg.append("text")
@@ -477,7 +572,7 @@ These 2 criteria give us very different rankings, as we show the results in the 
       .attr("cx",+d.y2011_num_people)
       .attr("cy",(+d.y2011_num_orgs*10-ht)*-1)
       .attr("r",Math.sqrt(+d.y2011_num_docs))
-      .style("fill","Violet")
+      .style("fill","orangered")
       .attr('fill-opacity', 0.8)
       .on("mouseover", function() {
       csvg.append("text")
@@ -511,7 +606,7 @@ These 2 criteria give us very different rankings, as we show the results in the 
       .attr("cx",+d.y2012_num_people)
       .attr("cy",(+d.y2012_num_orgs*10-ht)*-1)
       .attr("r",Math.sqrt(+d.y2012_num_docs))
-      .style("fill","white")
+      .style("fill","darkred")
       .attr('fill-opacity', 0.8)
       .on("mouseover", function() {
       csvg.append("text")
@@ -545,7 +640,7 @@ These 2 criteria give us very different rankings, as we show the results in the 
       .attr("cx",+d.y2013_num_people)
       .attr("cy",(+d.y2013_num_orgs*10-ht)*-1)
       .attr("r",Math.sqrt(+d.y2013_num_docs))
-      .style("fill","Coral")
+      .style("fill","black")
       .attr('fill-opacity', 0.8)
       .on("mouseover", function() {
       csvg.append("text")
@@ -581,8 +676,22 @@ These 2 criteria give us very different rankings, as we show the results in the 
       });
     </script>
 </section>
+<section>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</section>
+</section>
 
-<section><h3>Thanks!</h3>
+<section id="title"><h1>JGI PURE Challenge</h1>
+    <p style="font-size:30px">
+       <a href="http://www.bris.ac.uk/engineering/people/yu-chen/overview.html" target="_blank">Yu Chen</a>,
+       <a href="http://perellonieto.com" target="_blank">Miquel Perelló Nieto</a>, and
+       <a href="http://tomdiethe.com" target="_blank">Tom Diethe</a>
+    </p>
+    <p style="font-size:40px"><a href="http://intelligentsystems.bristol.ac.uk/" target="_blank">Intelligent Systems Laboratory</a></p>
 </section>
 
 </div>

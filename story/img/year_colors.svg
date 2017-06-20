@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="19cm" height="4cm" viewBox="-2 -2 362 62" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <ellipse style="fill: #ffffff" cx="29.5754" cy="29.5754" rx="29.5754" ry="29.5754"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="29.5754" cy="29.5754" rx="29.5754" ry="29.5754"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="29.5754" y="33.4754">
+      <tspan x="29.5754" y="33.4754">2008</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #a52a2a" cx="269.575" cy="29.5754" rx="29.5754" ry="29.5754"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="269.575" cy="29.5754" rx="29.5754" ry="29.5754"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="269.575" y="33.4754">
+      <tspan x="269.575" y="33.4754">2012</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffff00" cx="89.5754" cy="29.5754" rx="29.5754" ry="29.5754"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="89.5754" cy="29.5754" rx="29.5754" ry="29.5754"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="89.5754" y="33.4754">
+      <tspan x="89.5754" y="33.4754">2009</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #feb329" cx="149.575" cy="29.5754" rx="29.5754" ry="29.5754"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="149.575" cy="29.5754" rx="29.5754" ry="29.5754"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="149.575" y="33.4754">
+      <tspan x="149.575" y="33.4754">2010</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #fb4f2a" cx="209.575" cy="29.5754" rx="29.5754" ry="29.5754"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="209.575" cy="29.5754" rx="29.5754" ry="29.5754"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="209.575" y="33.4754">
+      <tspan x="209.575" y="33.4754">2011</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #1a1a1a" cx="329.575" cy="29.5754" rx="29.5754" ry="29.5754"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="329.575" cy="29.5754" rx="29.5754" ry="29.5754"/>
+    <text font-size="12.7998" style="fill: #ffffff;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="329.575" y="33.4754">
+      <tspan x="329.575" y="33.4754">2013</tspan>
+    </text>
+  </g>
+</svg>
