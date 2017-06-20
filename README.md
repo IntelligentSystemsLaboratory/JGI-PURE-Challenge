@@ -49,4 +49,7 @@ top words and top organisations of a topic.
 
 You can find the slides for a presentation on this link [intelligentsystemslaboratory.github.io/JGI-PURE-Challenge/story][5]
 
+And new slides with more bullet points and figures: [new slides][6]
+
 [5]: https://intelligentsystemslaboratory.github.io/JGI-PURE-Challenge/story/
+[6]: https://intelligentsystemslaboratory.github.io/JGI-PURE-Challenge/story/pure_presentation.html
